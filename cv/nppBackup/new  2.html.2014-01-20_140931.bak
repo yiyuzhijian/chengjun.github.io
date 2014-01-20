@@ -40,11 +40,8 @@
 <body>
 
 
-  <!------------ Primary Page Layout ------------------------
-    ######################################################
-    #          Insert content here                       #
-    ######################################################
-  ---------------------------------------------------------->
+  <!-- Primary Page Layout
+  ================================================== -->
   <div class="container">
     
     <!-- Sidebar -->
@@ -71,6 +68,13 @@
         <h1 class="title"></h1>
         <div class="entry-content" ><h1 id="contact" >Cheng-Jun Wang</h1>
 
+        <!-- <div class="entry-content" ><h1 id="cheng-jun-wang" style="text-align:center;">
+				Cheng-Jun Wang</h1>
+		#########################################################################
+        #                           add content here                            #
+		#########################################################################
+		-->
+
 		<br />
 		<h3 id="contact2">Contact Information</h3>
 		<ul>
@@ -81,7 +85,7 @@
 			<p>Department of Media and Communication, City University of Hong Kong.</p>
 		  </li>
 		  <li>
-			<p>Room 5013, 18 Tat Hong Avenue, Run Run Shaw Creative Media Centreï¼ŒKowloon. Hong Kong.</p>
+			<p>Room 5013, 18 Tat Hong Avenue, Run Run Shaw Creative Media Centre£¬Kowloon. Hong Kong.</p>
 		  </li>
 		  <li>
 			<p>Email: wangchj04 at gmail.com; chengwang6-c at my.cityu.edu.hk</p>
@@ -226,7 +230,7 @@
 			<p>Wang, C.J., Wang, P.P (2012). Does the unkown information matter for online daters. Paper to be presented to the 62nd Annual Conference of International Communication Association (ICA), Phonix, Arizona, May 24-28.</p>
 		  </li>
 		  <li>
-			<p>Wu, L.F., Wang,C.J. (2011). Heterogeneity and allometric growth of human collaborative tagging behavior. Poster session presented at The 7th Chinese Conference of Complex Networks (CCCNâ€™11), Chengdu, China, October 21-24 (paper).</p>
+			<p>Wu, L.F., Wang,C.J. (2011). Heterogeneity and allometric growth of human collaborative tagging behavior. Poster session presented at The 7th Chinese Conference of Complex Networks (CCCN¡¯11), Chengdu, China, October 21-24 (paper).</p>
 		  </li>
 		  <li>
 			<p>Wang, C.J.(2011).The emergence of spiral of silence from individual behaviors: Agent-based modeling of the spiral of silence. Paper presented at The 64th Annual Conference of the World Association for Public Opinion Research (WAPOR), Amsterdam, The Netherlands, September 21-23. (Simulation model, paper,slides)</p>
@@ -244,7 +248,7 @@
 			<p>Jumping over Network Threshold: News Diffusion on News Sharing Website. The seminar of IR and Friends.  Commonwealth Scientific and Industrial Research Organisation (CSIRO), Australia National University, Canberra. May14, 2012.</p>
 		  </li>
 		  <li>
-			<p>The Way to Computational Communication (é€šå¾€è®¡ç®—ä¼ æ’­å­¦ä¹‹è·¯). Department of Journalism and Communication, Shenzhen University. Jan 4th, 2013. (Slides)</p>
+			<p>The Way to Computational Communication (Í¨Íù¼ÆËã´«²¥Ñ§Ö®Â·). Department of Journalism and Communication, Shenzhen University. Jan 4th, 2013. (Slides)</p>
 		  </li>
 		</ul>
 
@@ -253,16 +257,16 @@
 
 		<ul>
 		  <li>
-			<p>ç‹è–‡ã€ç‹æˆå†›ã€ç‹é¢–ã€åˆ˜ç’Ÿ  [ç¿»è¯‘] (2013). ç¤¾ä¼šç½‘ç»œåˆ†æï¼šæ–¹æ³•ä¸å®è·µ. åŒ—äº¬ï¼šæœºæ¢°å·¥ä¸šå‡ºç‰ˆç¤¾. [Translation of the book Social Network Analysis for Startups: Finding connections on the Social Web., by Maksim Tsvetovat &amp; Alexander Kouznetsov. (2011).  Oâ€™Reilly Media]</p>
+			<p>ÍõŞ±¡¢Íõ³É¾ü¡¢ÍõÓ±¡¢Áõ­Z  [·­Òë] (2013). Éç»áÍøÂç·ÖÎö£º·½·¨ÓëÊµ¼ù. ±±¾©£º»úĞµ¹¤Òµ³ö°æÉç. [Translation of the book Social Network Analysis for Startups: Finding connections on the Social Web., by Maksim Tsvetovat &amp; Alexander Kouznetsov. (2011).  O¡¯Reilly Media]</p>
 		  </li>
 		  <li>
-			<p>ç‹æˆå†› (2014).ç¬¬åä¸€ç«  æ¢å¯»ç¤¾äº¤ç½‘ç»œä¸­çš„å…³ç³»ï¼šç»Ÿè®¡ç½‘ç»œæ¨¡å‹åˆæ¢.ã€Šè®¡ç®—ç¤¾ä¼šç§‘å­¦å¯¼è®ºã€‹(é˜³å¿—å¹³ä¸»ç¼–). åŒ—äº¬ï¼šæœºæ¢°å·¥ä¸šå‡ºç‰ˆç¤¾. [A Book Chapter of The Introduction to Computional Social Science, Edited by Yang, Z.P. (2014)]</p>
+			<p>Íõ³É¾ü (2014).µÚÊ®Ò»ÕÂ Ì½Ñ°Éç½»ÍøÂçÖĞµÄ¹ØÏµ£ºÍ³¼ÆÍøÂçÄ£ĞÍ³õÌ½.¡¶¼ÆËãÉç»á¿ÆÑ§µ¼ÂÛ¡·(ÑôÖ¾Æ½Ö÷±à). ±±¾©£º»úĞµ¹¤Òµ³ö°æÉç. [A Book Chapter of The Introduction to Computional Social Science, Edited by Yang, Z.P. (2014)]</p>
 		  </li>
 		  <li>
-			<p>ç‹æˆå†›. (2012, Aug 17). çˆ†å‘ï¼šäººç±»è¡Œä¸ºåœ¨æ—¶é—´å°ºåº¦ä¸Šçš„ç‰¹å¾. ä¸­å›½ç§‘å­¦æŠ¥, 06. [Review of the book Bursts: The Hidden Pattern Behind Everything We Do., by Albert-Laszlo Barabasi]. </p>
+			<p>Íõ³É¾ü. (2012, Aug 17). ±¬·¢£ºÈËÀàĞĞÎªÔÚÊ±¼ä³ß¶ÈÉÏµÄÌØÕ÷. ÖĞ¹ú¿ÆÑ§±¨, 06. [Review of the book Bursts: The Hidden Pattern Behind Everything We Do., by Albert-Laszlo Barabasi]. </p>
 		  </li>
 		  <li>
-			<p>ç‹æˆå†›. (2012, Jul 03). äººç±» 90%çš„è¡Œä¸ºæ˜¯å¯ä»¥é¢„æµ‹çš„. ä¸­å›½å›¾ä¹¦å•†æŠ¥, 1857.[Review of the book Bursts: The Hidden Pattern Behind Everything We Do., by Albert-Laszlo Barabasi]. </p>
+			<p>Íõ³É¾ü. (2012, Jul 03). ÈËÀà 90%µÄĞĞÎªÊÇ¿ÉÒÔÔ¤²âµÄ. ÖĞ¹úÍ¼ÊéÉÌ±¨, 1857.[Review of the book Bursts: The Hidden Pattern Behind Everything We Do., by Albert-Laszlo Barabasi]. </p>
 		  </li>
 		</ul>
 

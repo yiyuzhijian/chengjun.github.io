@@ -40,11 +40,12 @@
 <body>
 
 
-  <!------------ Primary Page Layout ------------------------
-    ######################################################
-    #          Insert content here                       #
-    ######################################################
-  ---------------------------------------------------------->
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <!-- Delete everything in this .container and get started on your own site! -->
+
   <div class="container">
     
     <!-- Sidebar -->
@@ -70,6 +71,16 @@
     <div class="twelve columns offset-by-four content">
         <h1 class="title"></h1>
         <div class="entry-content" ><h1 id="contact" >Cheng-Jun Wang</h1>
+
+        <!-- <div class="entry-content" ><h1 id="cheng-jun-wang" style="text-align:center;">Cheng-Jun Wang</h1>
+		#########################################################################
+		▶ ▷ ◀ ◁ ☀ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ⊙ ☊ ☋ ☌ ☍ⓛⓞⓥⓔ ╬ 『 』∴ ☀ ｡◕‿◕｡ ♫ ♬ ♩ ♭ ♪ ☆ 
+		▶ ▷ ◀ ◁ ☀ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ⊙ ☊ ☋ ☌ ☍ⓛⓞⓥⓔ ╬ 『 』∴ ☀ ｡◕‿◕｡ ♫ ♬ ♩ ♭ ♪ ☆ 
+										Add content below
+		▶ ▷ ◀ ◁ ☀ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ⊙ ☊ ☋ ☌ ☍ⓛⓞⓥⓔ ╬ 『 』∴ ☀ ｡◕‿◕｡ ♫ ♬ ♩ ♭ ♪ ☆ 
+		▶ ▷ ◀ ◁ ☀ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ⊙ ☊ ☋ ☌ ☍ⓛⓞⓥⓔ ╬ 『 』∴ ☀ ｡◕‿◕｡ ♫ ♬ ♩ ♭ ♪ ☆ 
+		#########################################################################
+		-->
 
 		<br />
 		<h3 id="contact2">Contact Information</h3>
@@ -303,15 +314,15 @@
 		</ul>
 				
 		<hr />
-		<!--<div class="doc-section" id="link">
+		<div class="doc-section" id="link">
 					<h3>Links</h3>
-					<a href="http://www.cityu.edu.hk/" target="_blank" >
-						<img src="images/cityu.jpg"  height="2" ></a>
+					<a href="http://www.cityu.edu.hk/" target="_blank">
+<img src="images/cityu.jpg"  height="20" ></a>
 					<a href="http://www.cityu.edu.hk/com/" target="_blank">
-						<img src="images/com.jpg"  height="2"></a>
+<img src="images/com.jpg"  height="20"></a>
 					<a href="http://weblab.com.cityu.edu.hk/blog/" target="_blank">
-						<img src="images/weblab2.jpg" height="0.2" ></a>
-		</div>-->
+<img src="images/weblab2.jpg" height="20" ></a>
+		</div>
     
 <div><!-- Content -->
     <footer class="eleven center-column">

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
   <!-- Basic Page Needs
@@ -20,10 +23,18 @@
   <link rel="stylesheet" href="stylesheets/layout.css">
   <link rel="stylesheet" href="stylesheets/style.css">
 
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
   <!-- Favicons
   ================================================== -->
   <link rel="shortcut icon" href="images/favicon.ico">
-
+  <!--
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
 
   <!-- Google Analytics Tracking Code
   ================================================== -->
@@ -32,7 +43,7 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '', 'iu.edu');
+      ga('create', 'UA-8161570-4', 'iu.edu');
       ga('send', 'pageview');
   </script>
   
@@ -40,11 +51,12 @@
 <body>
 
 
-  <!------------ Primary Page Layout ------------------------
-    ######################################################
-    #          Insert content here                       #
-    ######################################################
-  ---------------------------------------------------------->
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <!-- Delete everything in this .container and get started on your own site! -->
+
   <div class="container">
     
     <!-- Sidebar -->
@@ -57,9 +69,12 @@
       <ul>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#education">Education</a></li>
+         <!--<li><a href="#work">Internship</a></li> -->
         <li><a href="#research-interest">Projects</a></li>
         <li><a href="#publications">Publications</a></li>
+        <!--<li><a href="#courses">Courses</a></li> -->
         <li><a href="#service">Service</a></li>
+        <!--<li><a href="http://www.linkedin.com/in/chengjunwang" target="_blank">LinkedIn Profile</a></li>-->
         <li><a href="chengjunwang_resume.pdf" style="background:#abef81;"><span class='red'>Download Resume</span></a></li>
       </ul></nav>
     </div>
@@ -70,6 +85,11 @@
     <div class="twelve columns offset-by-four content">
         <h1 class="title"></h1>
         <div class="entry-content" ><h1 id="contact" >Cheng-Jun Wang</h1>
+
+        <!-- <div class="entry-content" ><h1 id="cheng-jun-wang" style="text-align:center;">Cheng-Jun Wang</h1>-->
+		<!-- paste the md-generated html code here :) !!!!-->
+		<!-- paste the md-generated html code here :) !!!!-->
+		<!-- paste the md-generated html code here :) !!!!-->
 
 		<br />
 		<h3 id="contact2">Contact Information</h3>
@@ -268,7 +288,7 @@
 
 		<hr />
 		<h3 id="teaching">Teaching</h3>
-		<p>My teaching interests focus on social  networks and new communication technologies, communication theory, and quantitative research methods (e.g., Network analysis). I worked as a TA for the following courses:</p>
+		<p>My teaching interests are in social  networks and new communication technologies, communication theory, and quantitative research methods (e.g., Network analysis). I worked as TA for the following courses:</p>
 
 		<ul>
 		  <li>
@@ -303,24 +323,24 @@
 		</ul>
 				
 		<hr />
-		<!--<div class="doc-section" id="link">
+		<!-- <div class="doc-section" id="link">
 					<h3>Links</h3>
-					<a href="http://www.cityu.edu.hk/" target="_blank" >
-						<img src="images/cityu.jpg"  height="2" ></a>
+					<a href="http://www.cityu.edu.hk/" target="_blank">
+<img src="images/cityu.jpg" width = "150" height="20" ></a>
 					<a href="http://www.cityu.edu.hk/com/" target="_blank">
-						<img src="images/com.jpg"  height="2"></a>
+<img src="images/com.jpg" width = "150" height="20"></a>
 					<a href="http://weblab.com.cityu.edu.hk/blog/" target="_blank">
-						<img src="images/weblab2.jpg" height="0.2" ></a>
-		</div>-->
+<img src="images/weblab2.jpg" width = "150" height="2" ></a>
+		</div> -->
     
-<div><!-- Content -->
+</div><!-- Content -->
     <footer class="eleven center-column">
-        <hr class="large"/><p>The Webpage is built on 
-		<a href="http://www.getskeleton.com/" target="_blank">Skeleton</a></p>
+        <hr class="large"/><p>The Webpage is built on <a href="http://www.getskeleton.com/" target="_blank">Skeleton</a></p>
     </footer>
     
 </div><!-- container -->
 
-<!-- End Document================================================== -->
+<!-- End Document
+================================================== -->
 </body>
 </html>
