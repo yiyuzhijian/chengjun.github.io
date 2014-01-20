@@ -1,6 +1,10 @@
 ---
-title: "markdownfiles"
+layout: page
+title: ""
 date: 2013-08-04 01:38
+comments: false
+sharing: true
+footer: true
 ---
 
 
@@ -8,7 +12,8 @@ date: 2013-08-04 01:38
 
 # Cheng-Jun Wang
 
-Download the [PDF](http://chengjun.github.io/cv/Cheng-Jun_Wang.pdf)
+'Curriculum Vitae Updated: April 7, 2013'{:lang="ruby"}
+. Download the [PDF](http://chengjun.github.io/cv/Cheng-Jun_Wang.pdf)
 
 
 ##Contact Information
