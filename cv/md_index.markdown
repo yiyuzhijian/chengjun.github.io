@@ -8,8 +8,7 @@ date: 2013-08-04 01:38
 
 # Cheng-Jun Wang
 
-'Curriculum Vitae Updated: April 7, 2013'{:lang="ruby"}
-. Download the [PDF](http://chengjun.github.io/cv/Cheng-Jun_Wang.pdf)
+Download the [PDF](http://chengjun.github.io/cv/Cheng-Jun_Wang.pdf)
 
 
 ##Contact Information
