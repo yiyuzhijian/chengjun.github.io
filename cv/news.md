@@ -1,6 +1,5 @@
-# News
 
-----------
+![](http://farm3.staticflickr.com/2833/12067939605_0dcab244a2_q.jpg)
 
 
 ## 2014
