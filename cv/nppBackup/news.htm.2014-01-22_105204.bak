@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<title>news</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="d3/d3.v3.js"></script>
+<style type="text/css">
+</style>
+<base href='file:\\\D:\github\chengjun.github.io\cv\'/>
+</head>
+<!-- copy here	------------------------->
+<!-- copy here	------------------------->
+<!-- copy here	------------------------->
+<!-- copy here	------------------------->
+
+	<div>
+		<div>
+			<script type="text/javascript">
+
+			//Width and height
+			var w = 1000;
+			var h = 500;
+
+			//Original data
+			var dataset = {
+				nodes: [
+					{ name: "Adam" },
+					{ name: "Bob" },
+					{ name: "Carrie" },
+					{ name: "Donovan" },
+					{ name: "Edward" },
+					{ name: "Felicity" },
+					{ name: "George" },
+				],
+				edges: [
+					{ source: 0, target: 1 },
+					{ source: 0, target: 2 },
+					{ source: 0, target: 4 },
+					{ source: 3, target: 4 },
+					{ source: 1, target: 5 },
+					{ source: 2, target: 5 },
+					{ source: 2, target: 5 },
+					{ source: 5, target: 6 },
+					{ source: 3, target: 6 },
+				]
+			};
+
+			//Initialize a default force layout, using the nodes and edges in dataset
+			var force = d3.layout.force()
+								 .nodes(dataset.nodes)
+								 .links(dataset.edges)
+								 .size([w, h])
+								 .linkDistance([50])
+								 .charge([-100])
+								 .start();
+
+			var colors = d3.scale.category10();
+
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+			
+			//Create edges as lines
+			var edges = svg.selectAll("line")
+				.data(dataset.edges)
+				.enter()
+				.append("line")
+				.style("stroke", "#ccc")
+				.style("stroke-width", 1);
+			
+			//Create nodes as circles
+			var nodes = svg.selectAll("circle")
+				.data(dataset.nodes)
+				.enter()
+				.append("circle")
+				.attr("r", 10)
+				.style("fill", function(d, i) {
+					return colors(i);
+				})
+				.call(force.drag);
+			
+			//Every time the simulation "ticks", this will be called
+			force.on("tick", function() {
+
+				edges.attr("x1", function(d) { return d.source.x; })
+					 .attr("y1", function(d) { return d.source.y; })
+					 .attr("x2", function(d) { return d.target.x; })
+					 .attr("y2", function(d) { return d.target.y; });
+			
+				nodes.attr("cx", function(d) { return d.x; })
+					 .attr("cy", function(d) { return d.y; });
+	
+			});
+
+
+		</script>
+		</div>
+	</div>
+<!-- copy here	------------------------->
+<!-- copy here	------------------------->
+<!-- copy here	------------------------->
+<!-- copy here	------------------------->
+
+<body>
+<p><img src="http://farm3.staticflickr.com/2833/12067939605_0dcab244a2_q.jpg" /></p>
+<h2>2014</h2>
+<ul>
+<li>Jan 16, Two papers have been accepted by the 64th Annual Conference of International Communication
+Association (ICA)</li>
+</ul>
+<h2>2013</h2>
+<ul>
+<li>Nov 20, <a href="http://weblab.com.cityu.edu.hk/blog/blog/2013/11/20/chengjun-won-at-asdsc2013/">Chengjun won First-place Prize at ASDSC2013</a></li>
+<li>Jul 11, <a href="http://weblab.com.cityu.edu.hk/blog/blog/2013/07/11/a-new-book-on-network-analysis-translated-by-chengjun/">A New Book on Network Analysis Translated by Chengjun</a></li>
+<li>Jan 05, <a href="http://weblab.com.cityu.edu.hk/blog/blog/2013/01/05/paper-on-public-discussions-of-occupying-wall-street-accepted-by-cbs/">Paper on Public Discussions of Occupy Wall Street Accepted by CBS</a></li>
+</ul>
+<h2>2012</h2>
+<ul>
+<li>Nov 02, <a href="http://weblab.com.cityu.edu.hk/blog/blog/2012/11/02/cheng-jun-gets-best-paper-award-of-student-symposium/">Cheng-Jun Got Best Paper Award of the Student Symposium</a></li>
+<li>Jun 08, <a href="http://weblab.com.cityu.edu.hk/blog/blog/2012/06/08/chengjun-gives-a-talk-about-news-diffusion-in-anu/">Chengjun Gives a Talk about News Diffusion in ANU</a></li>
+<li>Jan 03, <a href="http://weblab.com.cityu.edu.hk/blog/blog/2012/01/03/ph-d-students-win-paper-prizes-in-postgraduate-symposium/">Ph.D. Students Win Paper Prizes in Postgraduate Symposium</a></li>
+</ul>
+<h2>2011</h2>
+<ul>
+<li>Sep 24, <a href="http://weblab.com.cityu.edu.hk/blog/blog/2011/09/24/heng-and-chengjun-presented-their-studies-at-64th-annual-conference-of-wapor/">Chengjun presented their studies at 64th annual conference of WAPOR</a></li>
+</ul>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
