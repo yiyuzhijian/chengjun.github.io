@@ -1,6 +1,6 @@
 ---
 title: Computational Communication
-layout: page
+layout: default
 ---
 
 
