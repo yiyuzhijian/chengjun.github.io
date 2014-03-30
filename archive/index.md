@@ -1,7 +1,8 @@
 ---
-title: Red Hat
+title: Computational Communication
 layout: page
 ---
+
 
 <ul class="listing">
 {% for post in site.posts %}
