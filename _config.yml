@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: /:year/:month/:title/
-url: http://chengjun.github.io/
+url: http://chengjun.github.io
 author: Cheng-Jun Wang
 pygments: true
 
