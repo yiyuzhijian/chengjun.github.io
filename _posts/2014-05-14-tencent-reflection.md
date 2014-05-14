@@ -24,29 +24,34 @@ tags:
 
 - 用户关系的类型 （时间、地理、属性）
 
-**QQ圈子的提出与隐私困境**
-
 ![](https://farm3.staticflickr.com/2922/14182501955_724dba9e82_o.png)
 
 图：邓巴数与社交圈子的层次  /来源： [知乎](http://www.zhihu.com/question/20132322)
 
 是关系就有强有弱，线上关系也是一样。强的关系是相对较少的，弱的关系是相对较多的。强关系的社会意义是情感性的、生活方式的捆绑（bonding），因而被认为有着非常重要的作用。弱关系则具有传递信息的功能，因而反而对个人的很多选择具有重要影响。弱关系之所以具有传递有效信息的功能就是因为你的弱关系多与你处于不同的社会群体和社交圈子里，大家所处的环境不同，接触到的人和事不同，因而在信息共享方面具有很强的互补性。古语云：兼听则明偏信则暗。其实不是说数量，而是说要听取不同群体的意见。你的弱关系往往发挥着链接不同的群体的作用，这种作用又被称为桥接（bridging）的功能。
 
-很重要的一点是社交关系的流动，被封存起来的关系因为时间和地理的隔离而逐渐丧失了影响力。Dr.Thinker很明确地指出了这一点。如下图所示，我们有儿时的玩伴，有小学、初中、高中的同学、有大学同事、有现在的工作同事、有自己的家人。这些关系在我们人生中的每一个阶段而有所不同。社交网络帮助人们以较低的成本更好地去维持过去时空里的关系 （maintaining relationships）。因而，现实就是沉淀在社交网络里的关系具有时空的异质性。不同的人的影响权重并不相同。
+很重要的一点是社交关系的流动，被封存起来的关系因为时间和地理的隔离而逐渐丧失了影响力。Dr.Thinker很明确地指出了这一点。如下图所示，我们有儿时的玩伴，中学同学、大学同学、工作同事、自己的家人。这些关系在我们人生中的每一个阶段而有所不同。社交网络帮助人们以较低的成本更好地去维持过去时空里的关系 （maintaining relationships）。因而，现实就是沉淀在社交网络里的关系具有时空的异质性。不同的人的影响权重并不相同。
 
 ![](https://farm8.staticflickr.com/7336/14179201871_42eeac5e9a_o.png)
 
 图：社交网络的流动  /来源： [知乎](http://www.zhihu.com/question/20132322)
 
-社交圈子（social circle）是过去几年里比较火的概念。有一本书就叫《小圈子大社交：利用圈子引爆流行》，英文名为`Grouped: How small groups of friends are the key to influence on the social web` 。作者是Paul Adams，他先后供职于谷歌和脸书。据说在谷歌的时候，他就写完了一本书，书名叫《Social Circles: How offline relationships influence online behavior and what it means for design and marketing 》。因为谷歌的限制，这本书从未出版，后来其主要的思想应用到了google plus 的设计中。由书名可以知道这本书的核心是要实现关系从线下到线上的迁移。
+社交圈子（social circle）是过去几年里比较火的概念。有一本书就叫《小圈子大社交：利用圈子引爆流行》，英文名为`Grouped: How small groups of friends are the key to influence on the social web` 。作者是Paul Adams，他先后供职于谷歌和脸书。据说在谷歌的时候，他就写完了一本书，书名叫《Social Circles: How offline relationships influence online behavior and what it means for design and marketing 》。因为谷歌的限制，这本书从未出版，后来其主要的思想应用到了google plus 的设计中。由书名可以知道这本书的核心是要实现关系从线下到线上的迁移，以及如何利用这种真实关系在虚拟空间的重现来设计网站和营销活动。
  
+从时间的角度还可以对关系进行进一步的划分：一周联系一次，一个月联系一次，几个月联系一次，一年联系一次，数年不联系的人。这从更深入的细节上揭露了网络的特点。有时候，不联系的关系也许是线下的非常重要的关系，但是并没有实现这种关系向线上的迁移。
+
 ![](http://www.thinkoutsidein.com/blog/wp-content/uploads/2012/01/Screen-Shot-2012-01-28-at-10.18.50-AM.png)
 图：社会网络结构 /来源： [Paul Adams](http://www.thinkoutsidein.com/blog/2012/01/grouped-chapter2/)
 
+社区是现实社会的基本单位。在进行网络研究的时候，也可以进行类似的社区划分（community detection，也称为社团划分）。
 
 ![](https://farm3.staticflickr.com/2925/14179867392_2299e4a9a3_o.png)
 图：社交圈子  /来源： [知乎](http://www.zhihu.com/question/20132322)
 
+当然了，这种理解还是不够深入，因为它依然停留在对于中心个体给朋友贴标签的层面上。Paul Adams 所设想的景象如下图所示，我们不仅仅要能抓住个人中心网络当中的圈子，还要能够把握朋友的圈子。
+
+![](http://www.thinkoutsidein.com/blog/wp-content/uploads/2011/05/grouped087.png)
+图：深入到朋友的社交圈子？  /来源： [Paul Adams](http://www.thinkoutsidein.com/blog/2011/05/small-connected-groups/)
 
 
 #### 产品推荐
@@ -76,6 +81,8 @@ AB Test
 剥离出有效网络
 
 为什么传播会失败
+
+**QQ圈子的提出与隐私困境**
 
 
 - 剥离APP到QQ zone
