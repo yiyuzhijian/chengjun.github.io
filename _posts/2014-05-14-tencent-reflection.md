@@ -48,7 +48,8 @@ tags:
 ![](https://farm3.staticflickr.com/2925/14179867392_2299e4a9a3_o.png)
 图：社交圈子  /来源： [知乎](http://www.zhihu.com/question/20132322)
 
-当然了，这种理解还是不够深入，因为它依然停留在对于中心个体给朋友贴标签的层面上。Paul Adams 所设想的景象如下图所示，我们不仅仅要能抓住个人中心网络当中的圈子，还要能够把握朋友的圈子。
+当然了，这种理解还是不够深入，因为它依然停留在对于中心个体给朋友贴标签的层面上。Paul Adams 所设想的景象如下图所示，我们不仅仅要能抓住个人中心网络当中的圈子，还要能够把握朋友的圈子。在一个slides当中，Paul更加详细地展现了自己的想法，见[How Your Customers' Social Circles Influence What They Buy, What They Do and Where They Go](http://www.slideshare.net/padday/how-your-customers-social-circles-influence-what-they-buy-what-they-do-and-where-they-go) 
+
 
 ![](http://www.thinkoutsidein.com/blog/wp-content/uploads/2011/05/grouped087.png)
 图：深入到朋友的社交圈子？  /来源： [Paul Adams](http://www.thinkoutsidein.com/blog/2011/05/small-connected-groups/)
