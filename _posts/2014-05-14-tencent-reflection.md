@@ -17,7 +17,7 @@ tags:
 
 社交网站基于关系的类型可以分为熟人关系和陌生人关系。人人网、脸书、QQ、微信基本上都是针对熟人关系的，这种关系多数存在线下的关联（似乎至少在两步的距离之内）；陌生人关系则相对宽泛，如陌陌。除了基于社交关系的网站之外，还有基于兴趣和信息的网站，如微博和豆瓣。而如秘密等手机应用，则试图构建熟人之间的陌生关系。
 
-社交网站自身的需求当然是庞大的用户数量、活跃的用户规模、消费的用户行为。究其本质，社交网站主要依赖广告和游戏收入。互联网思维的强悍之处就在于第一步是赔本赚吆喝：扩大用户规模。基于庞大的用户规模，互联网广告就会注入，为网站提供资金源。另外一个方面，网站本身也需要自谋生路，游戏被认为是获取收益的关键。另外，游戏本身也可以搭载广告。
+社交网站自身的需求当然是庞大的用户数量、活跃的用户规模、消费的用户行为。究其本质，社交网站主要依赖广告和游戏收入。互联网思维的强悍之处就在于第一步是赔本赚吆喝：扩大用户规模。基于庞大的用户规模，互联网广告就会注入，为网站提供资金源。另外一个方面，网站本身也需要自谋生路，游戏被认为是获取收益的关键。当然，游戏本身也可以搭载广告。
 
 #### 何为传播的角度
 
@@ -38,7 +38,11 @@ tags:
 
 图：社交网络的流动  /来源： [知乎](http://www.zhihu.com/question/20132322)
 
-社交圈子（social circle）是过去几年里比较火的概念。有一本书就叫《小圈子，大社交》。
+社交圈子（social circle）是过去几年里比较火的概念。有一本书就叫《小圈子大社交：利用圈子引爆流行》，英文名为`Grouped: How small groups of friends are the key to influence on the social web` 。作者是Paul Adams，他先后供职于谷歌和脸书。据说在谷歌的时候，他就写完了一本书，书名叫《Social Circles: How offline relationships influence online behavior and what it means for design and marketing 》。因为谷歌的限制，这本书从未出版，后来其主要的思想应用到了google plus 的设计中。由书名可以知道这本书的核心是要实现关系从线下到线上的迁移。
+ 
+![](http://www.thinkoutsidein.com/blog/wp-content/uploads/2012/01/Screen-Shot-2012-01-28-at-10.18.50-AM.png)
+图：社会网络结构 /来源： [Paul Adams](http://www.thinkoutsidein.com/blog/2012/01/grouped-chapter2/)
+
 
 ![](https://farm3.staticflickr.com/2925/14179867392_2299e4a9a3_o.png)
 图：社交圈子  /来源： [知乎](http://www.zhihu.com/question/20132322)
