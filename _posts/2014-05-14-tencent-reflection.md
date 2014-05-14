@@ -29,7 +29,7 @@ tags:
 
 **QQ圈子的提出与隐私困境**
 
-![](http://p3.zhimg.com/b1/03/b103f69ceafb9407490abee396763861_m.jpg)
+![](https://www.flickr.com/photos/81249546@N07/14133646131/in/photostream/)
 
 图：邓巴数与社交圈子的层次 来源： [知乎](http://www.zhihu.com/question/20132322)
 
