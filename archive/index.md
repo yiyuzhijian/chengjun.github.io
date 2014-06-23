@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<!--List blog articles-->
+<!--
 
 <ul class="listing">
 {% for post in site.categories.blog %}
@@ -16,9 +16,9 @@ layout: page
     </li>
 {% endfor %}
 </ul>
+-->
 
-
-<!-- 
+{% for post in site.categories.blog %}
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
@@ -28,7 +28,7 @@ layout: page
     {{ post.content }}
   </div>
 {% endfor %}
-
+{% endfor %}
 
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -43,4 +43,4 @@ layout: page
     <span class="next ">Next</span>
   {% endif %}
 </div>
--->
+
