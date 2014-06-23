@@ -3,6 +3,19 @@ title: Computational Communication
 layout: page
 ---
 
+
+
+<ul class="listing">
+{% for post in site.categories.blog %}
+    <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+
+// comment?
+
 <ul class="listing">
 {% for post in paginator.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -50,13 +63,3 @@ layout: page
   {% endif %}
   (共{{ paginator.total_posts }}篇)
 </div>
-
-
-<ul class="listing">
-{% for post in site.categories.blog %}
-    <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
-</ul>
