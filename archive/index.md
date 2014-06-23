@@ -3,6 +3,15 @@ title: Computational Communication
 layout: page
 ---
 
+<!--List blog articles-->
+<ul class="listing">
+{% for post in site.categories %}
+    <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
@@ -30,12 +39,3 @@ layout: page
   {% endif %}
 </div>
 
-<!--List blog articles-->
-<ul class="listing">
-{% for post in site.categories %}
-    <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li>
-{% endfor %}
-</ul>
