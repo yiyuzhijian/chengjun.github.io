@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-
+<!--
 <ul class="listing">
 {% for post in site.categories.blog %}
     <li class="listing-item">
@@ -15,6 +15,7 @@ layout: page
     </li>
 {% endfor %}
 </ul>
+-->
 
 
 {% if paginator.total_pages > 1 %}
