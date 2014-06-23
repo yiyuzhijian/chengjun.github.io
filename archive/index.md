@@ -36,8 +36,11 @@ layout: page
     <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    
+    <!-- 
     <p></p>
-    <!-- {{ post.excerpt | remove: '<p>' | remove: '</p>' }} -->
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }} 
+    -->
     </li>
 {% endfor %}
 </ul>
