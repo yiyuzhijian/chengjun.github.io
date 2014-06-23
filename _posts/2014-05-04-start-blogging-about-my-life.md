@@ -32,3 +32,6 @@ tags:
 Patrick McKinley的博客以图片来显示博客文章的方法似乎很酷。感兴趣，去研究了下他的[代码](https://github.com/lilmuckers/lilmuckers.github.com)，大致是设置了post.image，图片存放在assets中的图片文件夹。我弄了下，也没弄成功。
 
 又看到[Mr Trường at RMIT](tmtxt.github.com)的网页，翻了半天，加了related_posts功能。 
+
+
+没想到晚上更惨，被python的encoding error搞得很头大！
