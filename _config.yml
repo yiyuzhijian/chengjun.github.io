@@ -3,7 +3,7 @@ permalink: /:year/:month/:title/
 url: http://chengjun.github.io
 author: Cheng-Jun Wang
 pygments: true
-paginate_path: "./archive/page:num"
+paginate_path: "/archive/page:num"
 safe: true
 paginate: 2
 auto: true
