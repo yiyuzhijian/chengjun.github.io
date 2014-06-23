@@ -4,7 +4,7 @@ title: "My Sina weibo"
 date: 2014-03-30 17:41
 comments: true
 categories: 
-- weibo
+- blog
 tags:
 - weibo
 ---
