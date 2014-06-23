@@ -27,4 +27,4 @@ tags:
 
 琢磨出一个不用每次在jekyll上写博客都要上传的方法：将要显示的博客的categories设为blog，一次上传n个草稿（不指定categories），使用liquid语言指定在博客列表中只显示blog类的。这样草稿不会被显示，每次在线登录github，更改一个草稿的标题和categories就可以了。图片用外链flickr。
 
-今天下午鼓捣了半天jekyll的设置，最初是想弄一个[paginator](http://jekyllrb.com/docs/pagination/)给文章列表分页，结果搞了半天，没搞定。各种问题。[Patrick McKinley](http://patrick-mckinley.com/tech/jekyll-pagination.html)说是因为不是网站第一层的index.html，所以jekyll官方设置时没有用的。于是，直接用他的方法，发现没有办法在我的网站上实现。又看到[Mr Trường at RMIT Vietnam] (tmtxt.github.com)的网页，翻了半天，加了related_posts功能。 
+今天下午鼓捣了半天jekyll的设置，最初是想弄一个[paginator](http://jekyllrb.com/docs/pagination/)给文章列表分页，结果搞了半天，没搞定。各种问题。[Patrick McKinley](http://patrick-mckinley.com/tech/jekyll-pagination.html)说是因为不是网站第一层的index.html，所以jekyll官方设置时没有用的。于是，直接用他的方法，发现没有办法在我的网站上实现。又看到[Mr Trường at RMIT](tmtxt.github.com)的网页，翻了半天，加了related_posts功能。 
