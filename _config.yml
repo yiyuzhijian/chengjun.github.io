@@ -3,4 +3,6 @@ permalink: /:year/:month/:title/
 url: http://chengjun.github.io
 author: Cheng-Jun Wang
 pygments: true
-
+safe: true
+paginate: 2
+auto: true
