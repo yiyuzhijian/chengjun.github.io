@@ -4,9 +4,6 @@ layout: page
 ---
 
 
-
-
-
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -35,7 +32,7 @@ layout: page
 
 <!--List blog articles-->
 <ul class="listing">
-{% for post in site.categories.blog %}
+{% for post in site.categories %}
     <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
