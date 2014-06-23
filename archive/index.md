@@ -14,7 +14,7 @@ layout: page
 {% endfor %}
 </ul>
 
-// comment?
+
 
 <ul class="listing">
 {% for post in paginator.posts %}
