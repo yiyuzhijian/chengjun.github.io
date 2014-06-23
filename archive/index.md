@@ -4,20 +4,6 @@ layout: page
 ---
 
 
-
-<ul class="listing">
-{% for post in site.categories.blog %}
-    <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <p></p>
-    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-    </li>
-{% endfor %}
-</ul>
-
-
-
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -43,3 +29,15 @@ layout: page
   {% endif %}
 </div>
 {% endif %}
+
+
+<ul class="listing">
+{% for post in site.categories.blog %}
+    <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <p></p>
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+    </li>
+{% endfor %}
+</ul>
