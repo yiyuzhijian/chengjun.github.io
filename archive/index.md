@@ -5,18 +5,19 @@ layout: page
 
 
 <!--List blog articles-->
-<!--
+
 <ul class="listing">
 {% for post in site.categories %}
     <li class="listing-item">
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    {{ post.excerpt }}
     </li>
 {% endfor %}
 </ul>
--->
 
-<!-- This loops through the paginated posts -->
+
+<!-- 
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
@@ -27,7 +28,7 @@ layout: page
   </div>
 {% endfor %}
 
-<!-- Pagination links -->
+
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
@@ -41,4 +42,4 @@ layout: page
     <span class="next ">Next</span>
   {% endif %}
 </div>
-
+-->
