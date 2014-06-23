@@ -4,7 +4,7 @@ title: "传播驱动的社交网络数据挖掘"
 date: 2014-05-14 09:41
 comments: true
 categories: 
-- 社会网络
+- blog
 tags:
 - 传播
 - 反思
