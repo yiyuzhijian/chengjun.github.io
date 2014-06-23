@@ -3,7 +3,9 @@ title: Computational Communication
 layout: page
 ---
 
+
 <!--List blog articles-->
+<!--
 <ul class="listing">
 {% for post in site.categories %}
     <li class="listing-item">
@@ -12,6 +14,7 @@ layout: page
     </li>
 {% endfor %}
 </ul>
+-->
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
