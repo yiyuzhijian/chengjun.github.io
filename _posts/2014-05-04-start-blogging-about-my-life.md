@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "现在的生活"
+title: "生活的细节：行走在2014年"
 date: 2014-05-04 10:41
 comments: true
 categories: 
