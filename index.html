@@ -94,22 +94,6 @@
 </div>
 
 
-
-<ul class="listing">
-{% for post in paginator.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
-  <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="assets/javascript/jquery.backstretch.min.js"></script>
 <script type="text/javascript" src="assets/javascript/application.js"></script>
