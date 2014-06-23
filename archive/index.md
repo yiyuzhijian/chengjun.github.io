@@ -3,82 +3,52 @@ title: Computational Communication
 layout: page
 ---
 
-<ul class="listing">
+<div class="page-header">
+  <h1>All of My Posts <small>Everything I've Written!</small></h1>
+</div>
+
+
+<div class="row-fluid post-pagination">
+  
 {% for post in paginator.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
-  <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+  <div class="span6">
+    <a href="{{ post.url }}">
+      <h4>{{ post.title }}  <small>{{post.date | date_to_long_string }}</small></h4>
+      <img src="{{ post.image }}" alt="{{ post.title }}" >
+    </a>
+  </div>
 {% endfor %}
-</ul>
 
-<div id="post-pagination" class="paginator">
 
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-    <a href="/"><前页</a>
-    {% else %}
-    <a href="/page{{paginator.previous_page}}"><前页</a>
-    {% endif %}
-  {% else %}
-    <span class="previous disabled"><前页</span>
-  {% endif %}
-
-      {% if paginator.page == 1 %}
-      <span class="current-page">1</span>
+  <div class="span12">
+    <div class="pagination">
+      <ul>
+      
+      {% if paginator.previous_page %}
+        <li class="prev"><a href="/posts/page{{ paginator.previous_page }}" title="Previous Page">&larr; Previous</a></li>
       {% else %}
-      <a href="/">1</a>
+        <li class="prev disabled"><a>&larr; Previous</a></li>
       {% endif %}
-
-    {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-      <span class="current-page">{{count}}</span>
+      
+      <li{% if paginator.page == 1 %} class="active"{% endif %}><a href="/posts/">1</a></li>
+      
+      {% for count in (2..paginator.total_pages) %}
+        {% if count == paginator.page %}
+        <li class="active"><a href="/posts/page{{count}}">{{count}}</a></li>
+        {% else %}
+        <li><a href="/archive/page{{count}}">{{count}}</a></li>
+        {% endif %}
+      {% endfor %}
+      
+      {% if paginator.next_page %}
+        <li class="next"><a href="/posts/page{{ paginator.next_page }}" title="Next Page">Next &rarr;</a></li>
       {% else %}
-      <a href="/page{{count}}">{{count}}</a>
+        <li class="next disabled"><a>Next &rarr;</a></li>
       {% endif %}
-    {% endfor %}
-
-  {% if paginator.next_page %}
-    <a class="next" href="/page{{paginator.next_page}}">后页></a>
-  {% else %}
-    <span class="next disabled" >后页></span>
-  {% endif %}
-  (共{{ paginator.total_posts }}篇)
+      </ul>
+    </div>
+  </div>
 </div>
-
-
-<!--Part 2-->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/archive/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-
 
 <ul class="listing">
 {% for post in site.categories %}
