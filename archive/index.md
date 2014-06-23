@@ -18,8 +18,9 @@ layout: page
 </ul>
 -->
 
-{% for post in site.categories.blog %}
+
 {% for post in paginator.posts %}
+{% for post in site.categories.blog %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
     <span class="date">{{ post.date }}</span>
