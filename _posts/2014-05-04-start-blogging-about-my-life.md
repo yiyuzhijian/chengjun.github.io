@@ -4,7 +4,7 @@ title: "现在的生活"
 date: 2014-05-04 10:41
 comments: true
 categories: 
-- 记录
+- blog
 tags:
 - 生活
 ---
