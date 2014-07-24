@@ -9,7 +9,7 @@ tags:
 - Cyanide and Happiness
 ---
 
-《氰化物与快乐》（Cyanide and Happiness）作为单页的漫画因为它的幽默和负有争议的特质,在互联网（尤其是社交网络上）上风靡。  它的创作者克里斯-威尔逊（Kris Wilso）因为链球菌性喉炎在家里休息的时候萌发了创作了这个漫画的主意。后来又有三个主要创作者（Rob DenBleyker, Matt Melvin and Dave McElfatrick）参与进来。这些漫画几乎每天都更新，读者可以在explosm.net[explosm.net](http://explosm.net/comics/)这个网站浏览。
+《氰化物与快乐》（Cyanide and Happiness）作为单页的漫画因为它的幽默和负有争议的特质,在互联网（尤其是社交网络上）上风靡。  它的创作者克里斯-威尔逊（Kris Wilso）因为链球菌性喉炎在家里休息的时候萌发了创作了这个漫画的主意。后来又有三个主要创作者（Rob DenBleyker, Matt Melvin and Dave McElfatrick）参与进来。这些漫画几乎每天都更新，读者可以在[explosm.net](http://explosm.net/comics/)这个网站浏览。
 
 我感觉翻译这些漫画是一件很有意思的事情，幽默而无负担。索性就翻译了几幅放在这里，以后如果有心情，也会继续汉化一点。
 
