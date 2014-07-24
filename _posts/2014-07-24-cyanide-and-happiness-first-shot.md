@@ -26,3 +26,7 @@ tags:
 #### 灯神
 
 <iframe src="https://www.flickr.com/photos/81249546@N07/14708526076/player/" width="750" height="750" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+####　孩子是怎么来的？
+
+<iframe src="https://www.flickr.com/photos/81249546@N07/14731662675/player/" width="500" height="427" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
