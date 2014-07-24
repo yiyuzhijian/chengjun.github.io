@@ -13,6 +13,11 @@ tags:
 
 我感觉翻译这些漫画是一件很有意思的事情，幽默而无负担。索性就翻译了一幅放在这里，以后如果有心情，也会继续弄一点。
 
+#### 和鬼魂没话说
+
 <iframe src="https://www.flickr.com/photos/81249546@N07/14730988602/player/" width="750" height="750" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+#### 裸体拥抱 vs 熊抱
 
 <iframe src="https://www.flickr.com/photos/81249546@N07/14544768089/player/" width="750" height="750" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
