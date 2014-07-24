@@ -21,3 +21,8 @@ tags:
 #### 裸体拥抱 vs 熊抱
 
 <iframe src="https://www.flickr.com/photos/81249546@N07/14544768089/player/" width="750" height="750" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+#### 灯神
+
+<a href="https://www.flickr.com/photos/81249546@N07/14708526076" title="genie-lamp-cyanide-and-happiness by wangchj04, on Flickr"><img src="https://farm4.staticflickr.com/3850/14708526076_0647aa91eb_s.jpg" width="75" height="75" alt="genie-lamp-cyanide-and-happiness"></a>
