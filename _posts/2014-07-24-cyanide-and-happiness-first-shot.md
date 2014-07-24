@@ -25,4 +25,4 @@ tags:
 
 #### 灯神
 
-![](https://farm4.staticflickr.com/3850/14708526076_0647aa91eb_s.jpg)
+<iframe src="https://www.flickr.com/photos/81249546@N07/14708526076/player/" width="750" height="750" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
