@@ -8,7 +8,7 @@ $(function(){
 	  //$basePath = "assets/images/";
 	  //$rand = $imgArr[Math.floor(Math.random() * $imgArr.length)];
 	  //$imag = $basePath + $rand;
-      $.backstretch($imag, {speed: 150}); //"assets/images/background.jpg"
+      //$.backstretch($imag, {speed: 150}); //"assets/images/background.jpg"
 	  $.backstretch("assets/images/6.jpg", {speed: 150}); //
       $('#backstretch').show();
     } else {
