@@ -9,11 +9,11 @@ $(function(){
 	  //$rand = $imgArr[Math.floor(Math.random() * $imgArr.length)];
 	  //$imag = $basePath + $rand;
       //$.backstretch($imag, {speed: 150}); //"assets/images/background.jpg"
-	  $.backstretch("http://farm4.staticflickr.com/3868/14791965525_73d5e9db9f_c.jpg", {speed: 150}); //
+      $.backstretch("http://farm4.staticflickr.com/3868/14791965525_73d5e9db9f_c.jpg", {speed: 150}); //
       $('#backstretch').show();
     } else {
       $('#backstretch').hide();
-    }
+      }
   })
   .resize();//trigger resize on page load
 });
