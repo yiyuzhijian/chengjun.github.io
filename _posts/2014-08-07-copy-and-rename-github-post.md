@@ -1,19 +1,21 @@
 ---
 layout: post
-title: "ʹ��Python�Զ����ƺ��������ı�"
+title: "使用Python自动复制和重命名文本"
 date: 2014-08-07 14:14
 comments: true
 categories: 
 - blog
 tags:
-- �Զ�����
+- 自动复制
 ---
 
-��ϲ������ҳ�˸���github�ϵ���־��ͨ������ֻ��ʾcategoriesΪblog���ĵ����ҿ���ÿ���޸�һ�㶫������ȫ����ҳ��д��־��
 
-���ָо��ǳ��ã�ͼƬ����ʲô�Ŀ��Է�����ţ��վ���о��ǳ��á�
+我喜欢在网页端更新github上的日志，通过设置只显示categories为blog的文档，我可以每次修改一点东西就完全在网页端写日志。
 
-���������������ƺ�������1000��md�ı���python���룺
+这种感觉非常好，图片附件什么的可以放在七牛网站，感觉非常好。
+
+下面是我用来复制和重命名1000个md文本的python代码：
+
 
 		# -*- coding: utf-8 -*-
 		"""
