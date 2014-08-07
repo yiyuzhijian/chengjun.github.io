@@ -91,4 +91,4 @@ tags:
 
 使用R生成24个月的图片，使用[makeagif](http://makeagif.com/)生成GIF动态图片：
 
-![iuOvDr on Make A Gif, Animated Gifs](http://cdn.makeagif.com/media/8-07-2014/iuOvDr.gif)
+![](http://cdn.makeagif.com/media/8-07-2014/iuOvDr.gif)
