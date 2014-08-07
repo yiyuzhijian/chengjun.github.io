@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "可视化比赛"
+title: "中国高校间的友谊网络：大学排名、地理位置和演化规律"
 date: 2014-07-21 17:41
 comments: true
 categories: 
