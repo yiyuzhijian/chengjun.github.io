@@ -34,3 +34,5 @@ tags:
 			print newFile
 			shutil.copy(demo, newFile)
 
+
+![](http://chengjun.qiniudn.com/7.jpg)
