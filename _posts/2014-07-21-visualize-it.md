@@ -92,3 +92,11 @@ tags:
 使用R生成24个月的图片，使用[makeagif](http://makeagif.com/)生成GIF动态图片：
 
 ![](http://cdn.makeagif.com/media/8-07-2014/iuOvDr.gif)
+
+本文提供[汇总的数据](http://chengjun.qiniudn.com/friends_university_top100_by_all.txt)下载，供感兴趣的同学玩。 
+
+数据的可视化标明：
+
+1. 学校间的友谊关系的建立取决于学校的排名 （排名越靠前的学校的网络中心性较高）
+2. 同一个省的学校之间存在更多的友谊关系 （存在地理上的proximity）
+
