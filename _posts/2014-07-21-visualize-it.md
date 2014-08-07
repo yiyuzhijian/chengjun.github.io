@@ -14,3 +14,70 @@ tags:
 
 
 我是想通过这个图从一个侧面说明各个大学在社交网络上的影响力和关系：所以节点大小表示每个大学在该网络中的人数，连边宽度表示节点之间的连接关系，节点颜色的不同可以表示节点的影响力大小（中心性指标）。
+
+
+  library(igraph)
+  setwd("F:/xiaonei/")
+  
+  ################
+  # all data
+  ################
+  data = read.table("./friends_university_top100_by_all.txt", header = FALSE, 
+                   sep = '\t', stringsAsFactors = FALSE)
+  #g =graph.data.frame(data[,1:2],directed=FALSE )
+  #E(g)$weight = data[,3]
+  # a = which(rank(-graph.strength(g)) <= 50)
+  
+  data = data[which(data[,3] >= mean(data[,3])*1.2), ]
+  data = data[which(data[,1] != data[,2]),]
+  g =graph.data.frame(data[,1:2],directed=FALSE )
+  E(g)$weight = data[,3]
+  E(g)$color = "lightgrey"
+  # layout
+  set.seed(34)   ## to make this reproducable
+  l=layout.fruchterman.reingold(g)
+  # size
+  nodeSize = graph.strength(g)
+  V(g)$size = (nodeSize - min(nodeSize))/(max(nodeSize) - min(nodeSize))*20
+  centrality = betweenness(g)
+  # colors
+  require(colorspace)
+  pal = function(col, border = "light gray", ...){
+    n = length(col)
+    plot(0, 0, type="n", xlim = c(0, 1), ylim = c(0, 1),
+         axes = FALSE, xlab = "", ylab = "", ...)
+    rect(0:(n-1)/n, 0, 1:n/n, 1, col = col, border = border)
+  }
+  
+  colors = heat.colors(37); pal(colors)
+  position = rank(-centrality, ties.method = "first")
+  V(g)$color = colors[position] 
+  # width
+  E(g)$width = (log(E(g)$weight)- 8)*1.5# (E(g)$weight-min(E(g)$weight))/(max(E(g)$weight)-min(E(g)$weight))*20
+  # label
+  nodeLabel = V(g)$name
+  V(g)$label.cex = log(centrality+1)/20 + 0.5
+  V(g)$label.color = "black"
+  # community detection
+  fc = fastgreedy.community(g); sizes(fc)
+  mfc = membership(fc)
+  # for (i in 1:max(mfc)) cat("\n", i, names(mfc[mfc==i]), "\n")
+  Q = round(modularity(fc), 3)
+  # plot
+  drawFigure = function(g){
+    plot(g, vertex.label= nodeLabel,  
+         edge.curved = FALSE, vertex.frame.color="#FFFFFF",
+         layout=l,mark.groups = by(seq_along(mfc), mfc, invisible) )
+  }
+                
+  drawFigure(g) 
+  
+  # save png
+  png("./all_color2.png",
+      width=10, height=10, 
+      units="in", res=700)
+  drawFigure(g) 
+  dev.off()
+
+
+![](http://chengjun.qiniudn.com/all_color.png)
