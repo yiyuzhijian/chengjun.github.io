@@ -44,7 +44,7 @@ tags:
     position = rank(-centrality, ties.method = "first")
     V(g)$color = colors[position] 
     # width
-    E(g)$width = (log(E(g)$weight)- 8)*1.5# (E(g)$weight-min(E(g)$weight))/(max(E(g)$weight)-min(E(g)$weight))*20
+    E(g)$width = (log(E(g)$weight)- 8)*1.5
     # label
     nodeLabel = V(g)$name
     V(g)$label.cex = log(centrality+1)/20 + 0.5
