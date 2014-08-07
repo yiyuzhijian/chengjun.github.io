@@ -81,3 +81,13 @@ tags:
 
 
 ![](http://chengjun.qiniudn.com/all_color.png)
+
+
+还可以根据月份来可视化
+
+看一下2006年一月的情况吧：
+
+![](http://chengjun.qiniudn.com/month_color_%201.png)
+
+使用R生成24个月的图片，使用[gifmaker](http://gifmaker.me/)生成GIF动态图片：
+
