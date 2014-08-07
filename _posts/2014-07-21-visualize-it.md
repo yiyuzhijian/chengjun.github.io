@@ -26,9 +26,6 @@ tags:
     ################
     data = read.table("./friends_university_top100_by_all.txt", header = FALSE, 
                      sep = '\t', stringsAsFactors = FALSE)
-    #g =graph.data.frame(data[,1:2],directed=FALSE )
-    #E(g)$weight = data[,3]
-    # a = which(rank(-graph.strength(g)) <= 50)
     
     data = data[which(data[,3] >= mean(data[,3])*1.2), ]
     data = data[which(data[,1] != data[,2]),]
@@ -43,15 +40,7 @@ tags:
     V(g)$size = (nodeSize - min(nodeSize))/(max(nodeSize) - min(nodeSize))*20
     centrality = betweenness(g)
     # colors
-    require(colorspace)
-    pal = function(col, border = "light gray", ...){
-      n = length(col)
-      plot(0, 0, type="n", xlim = c(0, 1), ylim = c(0, 1),
-           axes = FALSE, xlab = "", ylab = "", ...)
-      rect(0:(n-1)/n, 0, 1:n/n, 1, col = col, border = border)
-    }
-    
-    colors = heat.colors(37); pal(colors)
+    colors = heat.colors(37)
     position = rank(-centrality, ties.method = "first")
     V(g)$color = colors[position] 
     # width
@@ -63,8 +52,6 @@ tags:
     # community detection
     fc = fastgreedy.community(g); sizes(fc)
     mfc = membership(fc)
-    # for (i in 1:max(mfc)) cat("\n", i, names(mfc[mfc==i]), "\n")
-    Q = round(modularity(fc), 3)
     # plot
     drawFigure = function(g){
       plot(g, vertex.label= nodeLabel,  
@@ -75,7 +62,7 @@ tags:
     drawFigure(g) 
     
     # save png
-    png("./all_color2.png",
+    png("./all_color.png",
         width=10, height=10, 
         units="in", res=700)
     drawFigure(g) 
