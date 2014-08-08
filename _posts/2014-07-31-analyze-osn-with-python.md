@@ -37,68 +37,68 @@ tags:
 
 在获取html之后，我们将使用一个流行的类库BeautifulSoup来解析html并提取我们需要的信息。现在的BeautifulSoup已经发展到第四个版本。可以使用easy_install或者pip install的方法安装。如果读者使用的是Spyder的话，可以点击Tools--Open command prompt。然后，在打开的命令窗口中输入：easy_install beautifulsoup4 就可以了。使用beautifulsoup解析中文html的时候遇到的主要问题多是由encoding造成的。需要使用sys设定默认的encoding方式为gbk，并在BeautifulSoup函数中指定from_encoding为gbk。
 
-```python
-import urllib2
-from bs4 import BeautifulSoup
-import sys
-
-reload(sys)
-sys.setdefaultencoding('gbk')
-
-url = 'http://news.baidu.com/'
-content = urllib2.urlopen(url).read()
-soup = BeautifulSoup(content, from_encoding = 'gbk')
-hotNews = soup.find_all('div', {'class', 'hotnews'})[0].find_all('li')
-for i in hotNews:
-    print i.a.text
-    print i.a['href']
-```
+		```python
+		import urllib2
+		from bs4 import BeautifulSoup
+		import sys
+		
+		reload(sys)
+		sys.setdefaultencoding('gbk')
+		
+		url = 'http://news.baidu.com/'
+		content = urllib2.urlopen(url).read()
+		soup = BeautifulSoup(content, from_encoding = 'gbk')
+		hotNews = soup.find_all('div', {'class', 'hotnews'})[0].find_all('li')
+		for i in hotNews:
+		    print i.a.text
+		    print i.a['href']
+		```
 这样就可以抓取当天的热点新闻，输出的结果如下：
-
-```python
-习近平：改革惟其艰难 才更显勇毅
-http://china.cankaoxiaoxi.com/2014/0808/454139.shtml
-治疗费政府全担
-http://gb.cri.cn/42071/2014/08/06/2165s4643613.htm
-李克强点赞人物盘点：有女县长也有棒棒军
-http://news.youth.cn/jsxw/201408/t20140808_5605703.htm
-李克强指示地震救灾
-http://yn.yunnan.cn/html/2014-08/07/content_3316250.htm
-云南地震致615人遇难
-http://news.baidu.com/z/ynlddz/new/zhuanti.html
-临时安置点1顶帐篷内住20人
-http://news.youth.cn/gn/201408/t20140808_5607225.htm
-```
+		
+		```python
+		习近平：改革惟其艰难 才更显勇毅
+		http://china.cankaoxiaoxi.com/2014/0808/454139.shtml
+		治疗费政府全担
+		http://gb.cri.cn/42071/2014/08/06/2165s4643613.htm
+		李克强点赞人物盘点：有女县长也有棒棒军
+		http://news.youth.cn/jsxw/201408/t20140808_5605703.htm
+		李克强指示地震救灾
+		http://yn.yunnan.cn/html/2014-08/07/content_3316250.htm
+		云南地震致615人遇难
+		http://news.baidu.com/z/ynlddz/new/zhuanti.html
+		临时安置点1顶帐篷内住20人
+		http://news.youth.cn/gn/201408/t20140808_5607225.htm
+		```
 ####模拟浏览器抓取数据
 越来越多的网站要求必须登录才能看到内容，这个时候就需要使用编程软件模拟浏览器登录。登录成功后，就可以抓取内容了。这里举一个抓取聊天论坛帖子列表的例子。这个网站的网络链接为：http://members.lovingfromadistance.com/forum.php， 我们首先写一个叫screen_login的函数。其核心是定义个浏览器对象br = mechanize.Browser()。这个时候，需要借用浏览器的cookie功能，主要借助于cookielib包。代码如下所示：
-
-```python
-import mechanize
-import cookielib
-
-def screen_login(): 
-    br = mechanize.Browser()
-    cj = cookielib.LWPCookieJar()
-    br.set_cookiejar(cj)
-    # setting
-    br.set_handle_equiv(True)
-    br.set_handle_redirect(True)
-    br.set_handle_referer(True)
-    br.set_handle_robots(False)
-    # br.set_debug_http(True)
-    # User-Agent (this is cheating, ok?) 
-    br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Chrome/17.0.963.56 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
-    br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
-    # Open the login page
-    br.open('http://members.lovingfromadistance.com/login.php?do=login') 
-    br.select_form(nr = 0) # Find the login form
-    br['vb_login_username'] = '你的用户名' 
-    br['vb_login_password'] = '你的注册密码'
-    br.submit() # Submit the form
-    return(br)
-
-br = screen_login()
-```
+		
+		```python
+		import mechanize
+		import cookielib
+		
+		def screen_login(): 
+		    br = mechanize.Browser()
+		    cj = cookielib.LWPCookieJar()
+		    br.set_cookiejar(cj)
+		    # setting
+		    br.set_handle_equiv(True)
+		    br.set_handle_redirect(True)
+		    br.set_handle_referer(True)
+		    br.set_handle_robots(False)
+		    # br.set_debug_http(True)
+		    # User-Agent (this is cheating, ok?) 
+		    br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Chrome/17.0.963.56 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
+		    br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+		    # Open the login page
+		    br.open('http://members.lovingfromadistance.com/login.php?do=login') 
+		    br.select_form(nr = 0) # Find the login form
+		    br['vb_login_username'] = '你的用户名' 
+		    br['vb_login_password'] = '你的注册密码'
+		    br.submit() # Submit the form
+		    return(br)
+		
+		br = screen_login()
+		```
 为了从HTML文档提取cookies，首先使用cookielib模块的LWPCookieJar()函数创建一个cookie jar的实例。LWPCookieJar()函数将返回一个对象，该对象可以从硬盘加载Cookie，同时还能向硬盘存放Cookie。之后，通过 br.set_cookiejar(cj)将这个cookie jar关联到mechanize的浏览器对象br上。简单设置一些浏览器属性后，需要定义使用的user-agent。用户代理（User Agent）指的是代表使用者行为的软件，主要是设置浏览器的头文件。
 
 最后是关键的一步，打开登录页面，输入用户名和用户密码。需要使用br.select_form(nr = 0)来找到登录表格。这里nr的设置比较灵活，不同网站的数值不同。然后输入用户名和密码。比如：br['vb_login_username'] = 'Your registered User name'， 这里的vb_login_username也会随着网站本身使用的具体内容而不同。运行br = screen_login()就可以模拟登录成功，然后就可以开始数据抓取和使用BeautifulSoup来进行信息提取的工作了，此处不再赘述。
@@ -108,76 +108,76 @@ br = screen_login()
 
 数据抓取的第一步，就是建立数据连接的工作，以获取社交网站开放数据流的许可。
 
-```python
-#!/usr/bin/env python
-# -*- coding: utf8 -*-
-
-from weibo import APIClient
-import urllib2
-import urllib
-import sys
-import time
-from time import clock
-import csv
-import random
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
-
-'''Step 0 Login with OAuth2.0'''
-if __name__ == "__main__":
-	APP_KEY = '663...' # app key
-	APP_SECRET = '2fc....' # app secret
-	CALLBACK_URL = 'https://api.weibo.com/oauth2/default.html' 
-	AUTH_URL = 'https://api.weibo.com/oauth2/authorize'
-	USERID = 'w...4' # your weibo user id
-	PASSWD = 'w....' #your pw
-
-	client = APIClient(app_key=APP_KEY, app_secret=APP_SECRET, redirect_uri=CALLBACK_URL)
-	referer_url = client.get_authorize_url()
-	print "referer url is : %s" % referer_url
-
-	cookies = urllib2.HTTPCookieProcessor()
-	opener = urllib2.build_opener(cookies)
-	urllib2.install_opener(opener)
-
-	postdata = {"client_id": APP_KEY,
-				"redirect_uri": CALLBACK_URL,
-				"userId": USERID,
-				"passwd": PASSWD,
-				"isLoginSina": "0",
-				"action": "submit",
-				"response_type": "code",
-				}
-	headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0",
-				"Host": "api.weibo.com",
-				"Referer": referer_url
-			}
-
-	req  = urllib2.Request(
-	   url = AUTH_URL,
-	   data = urllib.urlencode(postdata),
-	   headers = headers
-	   )
-	try:
-		resp = urllib2.urlopen(req)
-		print "callback url is : %s" % resp.geturl()
-		code = resp.geturl()[-32:]
-		print "code is : %s" %  code
-	except Exception, e:
-		print e
-
-r = client.request_access_token(code)
-access_token1 = r.access_token # The token return by sina
-expires_in = r.expires_in
-
-print "access_token=" ,access_token1
-print "expires_in=" ,expires_in   # access_token lifetime by second. 
-
-"""save the access token"""
-client.set_access_token(access_token1, expires_in)
-
-```
+		```python
+		#!/usr/bin/env python
+		# -*- coding: utf8 -*-
+		
+		from weibo import APIClient
+		import urllib2
+		import urllib
+		import sys
+		import time
+		from time import clock
+		import csv
+		import random
+		
+		reload(sys)
+		sys.setdefaultencoding('utf-8')
+		
+		'''Step 0 Login with OAuth2.0'''
+		if __name__ == "__main__":
+			APP_KEY = '663...' # app key
+			APP_SECRET = '2fc....' # app secret
+			CALLBACK_URL = 'https://api.weibo.com/oauth2/default.html' 
+			AUTH_URL = 'https://api.weibo.com/oauth2/authorize'
+			USERID = 'w...4' # your weibo user id
+			PASSWD = 'w....' #your pw
+		
+			client = APIClient(app_key=APP_KEY, app_secret=APP_SECRET, redirect_uri=CALLBACK_URL)
+			referer_url = client.get_authorize_url()
+			print "referer url is : %s" % referer_url
+		
+			cookies = urllib2.HTTPCookieProcessor()
+			opener = urllib2.build_opener(cookies)
+			urllib2.install_opener(opener)
+		
+			postdata = {"client_id": APP_KEY,
+						"redirect_uri": CALLBACK_URL,
+						"userId": USERID,
+						"passwd": PASSWD,
+						"isLoginSina": "0",
+						"action": "submit",
+						"response_type": "code",
+						}
+			headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; rv:11.0) Gecko/20100101 Firefox/11.0",
+						"Host": "api.weibo.com",
+						"Referer": referer_url
+					}
+		
+			req  = urllib2.Request(
+			   url = AUTH_URL,
+			   data = urllib.urlencode(postdata),
+			   headers = headers
+			   )
+			try:
+				resp = urllib2.urlopen(req)
+				print "callback url is : %s" % resp.geturl()
+				code = resp.geturl()[-32:]
+				print "code is : %s" %  code
+			except Exception, e:
+				print e
+		
+		r = client.request_access_token(code)
+		access_token1 = r.access_token # The token return by sina
+		expires_in = r.expires_in
+		
+		print "access_token=" ,access_token1
+		print "expires_in=" ,expires_in   # access_token lifetime by second. 
+		
+		"""save the access token"""
+		client.set_access_token(access_token1, expires_in)
+		
+		```
 
 当然，这首先需要注册和认证。以新浪微博为例，研究者可到其应用开发页面注册 。现在流行的方式是使用OAuth获取连接社会化媒体的API的使用权限。
 
