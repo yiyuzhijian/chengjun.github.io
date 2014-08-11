@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "氰化物与快乐"
+title: "氰快乐：和鬼魂没话说！"
 date: 2014-07-24 17:41
 comments: true
 categories: 
