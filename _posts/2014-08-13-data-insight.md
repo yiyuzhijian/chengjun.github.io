@@ -20,13 +20,11 @@ tags:
 ![](http://wiki.swarma.net/images/thumb/c/c5/Allowmetric_growht_digg_36_days.png/400px-Allowmetric_growht_digg_36_days.png)
 
 
-![](http://wiki.swarma.net/images/thumb/c/c5/Dissipation_digg_36_days.png/400px-Dissipation_digg_36_days.png)
-
 引入耗散的视角：耗散阻碍了生长。每个小时里流网络而言，可以算每个节点i的耗散与流入。流入$$T_{i}$$和耗散$$D_{i}$$的差值就是节点i的流存量。一个流网络，就可以算到源头的流距离$$L_{i}$$。
 
 我们知道$$T_{i}$$和耗散$$D_{i}$$的关系同样满足一个标度规律。放在直角坐标系中，我们可以画出这种关系。
 
-
+![](http://wiki.swarma.net/images/d/d9/Dissipation_digg_36_days.png)
 
 
 
