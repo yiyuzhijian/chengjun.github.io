@@ -43,7 +43,22 @@ tags:
 
 ![](http://wiki.swarma.net/images/thumb/8/84/Les.png/800px-Les.png)
 
+看到数据里的平行四边形，而不是相互遮盖成为一个直线。
 
+结果导致了拟合的耗散率$$\mu$$和异速增长率$$\theta$$之间的关系具有较大的噪音：
 
+![](http://wiki.swarma.net/images/thumb/c/ce/MuAndTheta.png/600px-MuAndTheta.png)
 
+怎么办？引入系统规模UV。
 
+$$
+T(r) = A*D_{rmax}^aD(r)^b
+$$
+
+T(r)和D(r)代表沿半径r从source到sink对节点的直接流通量$$t_{i}$$和耗散量$$d_{i}$$进行积分。当r=rmax时，D(r)=D(rmax)=UV。
+
+果然效果好了。
+
+![](http://wiki.swarma.net/images/thumb/c/c1/Dreyerballscaling.png/800px-Dreyerballscaling.png)
+
+看到这里我自愧弗如远甚。
