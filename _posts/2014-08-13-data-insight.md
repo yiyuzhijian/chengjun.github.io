@@ -62,3 +62,5 @@ T(r)和D(r)代表沿半径r从source到sink对节点的直接流通量$$t_{i}$$�
 ![](http://wiki.swarma.net/images/thumb/c/c1/Dreyerballscaling.png/800px-Dreyerballscaling.png)
 
 看到这里我自愧弗如远甚。
+
+![](http://wiki.swarma.net/images/7/7e/Addjustedthetaprediction.png)
