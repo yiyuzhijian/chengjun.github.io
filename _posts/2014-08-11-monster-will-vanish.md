@@ -4,7 +4,7 @@ title: "氰快乐：怪兽会消失！"
 date: 2014-08-11 17:41
 comments: true
 categories: 
-- blog
+- comic
 tags:
 - Cyanide and Happiness 
 ---
