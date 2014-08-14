@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "博士没假期"
-date: 
+date: 2014-08-14
 comments: true
 categories: 
 - blog
