@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "普适计算的道路和梦想"
-date: 2010-03-30 17:41
+date: 2014-08-15 11:41
 comments: true
 categories: 
 - comic
