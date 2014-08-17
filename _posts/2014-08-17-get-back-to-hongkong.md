@@ -22,7 +22,8 @@ tags:
 半个月之前就收到学院通知，所要vacate your office desk on or before 24 August 2014. 马上就没地方了。希望门卡不要那么快失效。
 
 ###签证
-申请了testimonial，~~还没有~~收到。眼赶快去申请签证延期。
+申请了testimonial，~~还没有~~收到。
+明天一早赶快去申请签证延期。
 
 ###答辩
 要赶紧开始做PPT。
