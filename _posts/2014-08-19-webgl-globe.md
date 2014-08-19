@@ -17,12 +17,12 @@ tags:
 
 我的想法是做一个自己到过的地方。
 
-  var data = [
-      [
-      'seriesA', [ latitude, longitude, magnitude, latitude, longitude, magnitude, ... ]
-      ],
-      [
-      'seriesB', [ latitude, longitude, magnitude, latitude, longitude, magnitude, ... ]
-      ]
-  ];
+    var data = [
+        [
+        'seriesA', [ latitude, longitude, magnitude, latitude, longitude, magnitude, ... ]
+        ],
+        [
+        'seriesB', [ latitude, longitude, magnitude, latitude, longitude, magnitude, ... ]
+        ]
+    ];
 
