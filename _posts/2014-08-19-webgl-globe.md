@@ -7,6 +7,7 @@ categories:
 - 可视化
 tags:
 - 地图
+- javascript
 ---
 
 ![](http://chengjun.qiniudn.com/Capture.PNG)
