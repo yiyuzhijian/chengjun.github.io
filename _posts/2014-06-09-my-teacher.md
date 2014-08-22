@@ -4,7 +4,7 @@ title: "君子隆师：记我的博士导师祝建华先生"
 date: 2014-06-09 20:58
 comments: true
 categories: 
-- blog
+- 学术
 tags:
 - 良师益友
 ---
