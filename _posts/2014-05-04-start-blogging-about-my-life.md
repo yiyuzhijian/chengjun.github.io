@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "生活的细节：行走在2014年"
-date: 2014-05-04 10:41
+date: 2014-05-04
 comments: true
 categories: 
-- blog
-tags:
 - 生活
+tags:
+- 工作
 ---
 
 
