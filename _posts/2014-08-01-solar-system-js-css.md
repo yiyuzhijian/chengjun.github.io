@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "CSS + JS 实现的太阳系模型"
-date: 2014-08-01 17:41
+date: 2014-08-01
 comments: true
 categories: 
-- blog
+- 可视化
 tags:
 - js
 - css
