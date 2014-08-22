@@ -4,7 +4,7 @@ title: "乡旅西安"
 date: 2014-07-17 17:41
 comments: true
 categories: 
-- blog
+- 生活
 tags:
 - 西安
 ---
