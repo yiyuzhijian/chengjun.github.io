@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "君子隆师：记我的博士导师祝建华先生"
-date: 2014-06-09 20:58
+date: 2014-06-09
 comments: true
 categories: 
 - 学术
