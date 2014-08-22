@@ -4,9 +4,8 @@ title: "数据洞察：掘地三尺的研究路径"
 date: 2014-08-13 17:41
 comments: true
 categories: 
-- blog
+- 学术
 tags:
-- 研究
 - 数据
 ---
 
