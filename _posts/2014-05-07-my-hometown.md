@@ -4,7 +4,7 @@ title: "后仓沟记忆"
 date: 2014-05-08 10:41
 comments: true
 categories: 
-- blog
+- 生活
 tags:
 - 家乡
 ---
