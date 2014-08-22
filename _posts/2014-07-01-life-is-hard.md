@@ -4,9 +4,8 @@ title: "世界之外的角落"
 date: 2014-07-01 17:41
 comments: true
 categories: 
-- blog
-tags:
 - 生活
+tags:
 - python
 ---
 
