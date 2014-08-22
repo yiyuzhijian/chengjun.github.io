@@ -4,9 +4,8 @@ title: "不要臧否人物"
 date: 2014-07-11 17:41
 comments: true
 categories: 
-- blog
-tags:
 - 生活
+tags:
 - 哲学
 ---
 
