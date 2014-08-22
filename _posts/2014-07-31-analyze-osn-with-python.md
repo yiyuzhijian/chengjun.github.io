@@ -4,7 +4,7 @@ title: "使用Python分析社交网络数据"
 date: 2014-07-31 17:41
 comments: true
 categories: 
-- blog
+- 学术
 tags:
 - python
 - 社会网络
