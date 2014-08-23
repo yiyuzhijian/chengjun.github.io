@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "找回自我"
+title: "走远点！找回自我"
 date: 2014-08-22
 comments: true
 categories: 
@@ -10,6 +10,7 @@ tags:
 ---
 
 ![](http://chengjun.qiniudn.com/go-long.png)
+
 走远点！ 来源：[http://explosm.net/comics/3654/](http://explosm.net/comics/3654/)
 
 今天再次意识到一个问题：是的，这个东西很牛逼，但是跟你有什么关系呢？以前只是会思考理论问题。但是现在，别人会问：你这个东西解决了什么问题？更多的是比较实际的问题。
