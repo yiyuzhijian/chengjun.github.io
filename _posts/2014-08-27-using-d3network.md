@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用d3network做网络可视化"
-date: 2010-03-30 17:41
+date: 2014-08-27 20:41
 comments: true
 categories: 
 - 可视化
