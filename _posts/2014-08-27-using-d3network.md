@@ -59,7 +59,7 @@ tags:
 
 
 
-<iframe src='http://chengjun.github.io/vis/chinese_university_groups100.html' scrolling="no" width="500" height="1500"></iframe>
+<iframe src='http://chengjun.github.io/vis/chinese_university_groups100.html' scrolling="no" width="800"></iframe>
 
 
 但是对于中文要麻烦一些，需要手工修改html里的encoding设置，包括meta部分和script部分两个地方：
