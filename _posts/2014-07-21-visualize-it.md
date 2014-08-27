@@ -95,6 +95,6 @@ tags:
 
 本文提供[汇总的数据](http://chengjun.qiniudn.com/friends_university_top100_by_all.txt)下载，供感兴趣的同学玩。 
 
-<iframe src='vis/chinese_university_groups100.html' height=856 width=1596.5></iframe>
+<iframe src='http://chengjun.qiniudn.com/vis/chinese_university_groups100.html'></iframe>
 
-<meta charset="gbk">
+    <meta charset="gbk">
