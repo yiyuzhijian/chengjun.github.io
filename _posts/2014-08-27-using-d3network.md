@@ -14,48 +14,48 @@ tags:
 
 首先，安装d3network
 
-  devtools::install_github("d3Network", "christophergandrud")
-  require(d3Network)
+    devtools::install_github("d3Network", "christophergandrud")
+    require(d3Network)
 
 之后可以使用简单的可视化方法：
 
-  d3SimpleNetwork(data[,1:2],
-                  file = "chinese_university100.html",
-                  width = 1024,
-                  height = 763,
-                  fontsize = 12)
+    d3SimpleNetwork(data[,1:2],
+                    file = "chinese_university100.html",
+                    width = 1024,
+                    height = 763,
+                    fontsize = 12)
 
 
 我想要展现社区划分的结果：
 
-  #链接数据
-  links = data
-  names(links) = c("source", "target", "value")
-  
-  #节点列表
-  fc = fastgreedy.community(g); sizes(fc)
-  mfc = membership(fc)
-  nodes = data.frame(name = names(mfc), group = mfc)
-  
-  #对应链接数据和节点数据
-  ids = 0:(nrow(nodes)-1) # notice: start with zero!
-  links[,1] = ids[match(links[,1], nodes$name )]
-  links[,2] = ids[match(links[,2], nodes$name )]
-  links = links[with(links, order(source)), ] # sort by source
-  
-  #处理边的权重大小
-  links$value = log(links$value) 
+    #链接数据
+    links = data
+    names(links) = c("source", "target", "value")
+    
+    #节点列表
+    fc = fastgreedy.community(g); sizes(fc)
+    mfc = membership(fc)
+    nodes = data.frame(name = names(mfc), group = mfc)
+    
+    #对应链接数据和节点数据
+    ids = 0:(nrow(nodes)-1) # notice: start with zero!
+    links[,1] = ids[match(links[,1], nodes$name )]
+    links[,2] = ids[match(links[,2], nodes$name )]
+    links = links[with(links, order(source)), ] # sort by source
+    
+    #处理边的权重大小
+    links$value = log(links$value) 
 
 之后就可以使实现可视化结果啦：
 
-  d3ForceNetwork(Links = links, Nodes = nodes,
-                 Source = "source", Target = "target",
-                 Value = "value", 
-                 NodeID = "name",
-                 Group = "group", 
-                 file = "chinese_university_groups100.html",
-                 width = 1550, height = 800,iframe = TRUE,
-                 opacity = 0.9, zoom = TRUE)
+    d3ForceNetwork(Links = links, Nodes = nodes,
+                   Source = "source", Target = "target",
+                   Value = "value", 
+                   NodeID = "name",
+                   Group = "group", 
+                   file = "chinese_university_groups100.html",
+                   width = 1550, height = 800,iframe = TRUE,
+                   opacity = 0.9, zoom = TRUE)
 
 
 
