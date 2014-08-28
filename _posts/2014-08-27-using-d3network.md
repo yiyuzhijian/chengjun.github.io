@@ -68,4 +68,4 @@ tags:
     <script charset="gbk" src=http://d3js.org/d3.v3.min.js></script>
     
 
-除此之外，我还尝试了下![两百所学校的情况：点这里。](http://chengjun.github.io/vis/chinese_university_groups200more.html)
+除此之外，我还尝试了下[两百所学校的情况：点这里。](http://chengjun.github.io/vis/chinese_university_groups200more.html)
