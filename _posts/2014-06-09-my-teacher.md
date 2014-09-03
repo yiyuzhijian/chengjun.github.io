@@ -51,5 +51,5 @@ tags:
 
 [2. 祝老师的学术道路](http://chengjun.github.io/road)
 
-<iframe src='http://chengjun.github.io/road/' align = "middle" scrolling="yes" width="1200" height = "800"></iframe>
+<iframe src='http://chengjun.github.io/road/' align = "middle" scrolling="yes" width="600" height = "400"></iframe>
 
