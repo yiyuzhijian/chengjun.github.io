@@ -4,7 +4,7 @@ title: About
 comments: yes
 ---
 
-<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=github/VGgA', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="hidden" value="github/VGgA" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p>Click to Subscribe by Email</p></form>
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=github/VGgA', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="hidden" value="github/VGgA" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Click to Subscribe by Email" /><p>Click to Subscribe by Email</p></form>
 
 
 You can know more about me in the [homepage](/) and my [CV](/cv/). 
