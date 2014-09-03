@@ -4,12 +4,15 @@ title: About
 comments: yes
 ---
 
-<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=github/VGgA', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="hidden" value="github/VGgA" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Click to Subscribe by Email" /><p>Click to Subscribe by Email</p></form>
+##博客订阅
 
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=github/VGgA', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="hidden" value="github/VGgA" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Click here to Subscribe by Email" /></form>
 
+##关于我
 You can know more about me in the [homepage](/) and my [CV](/cv/). 
 
 
+##博客模板介绍
 **[Red bird](http://chengjun.github.io/blog/)**! Another good [Jekyll](https://github.com/mojombo/jekyll) theme, which was originally developed by [Linghua Zhang](http://lhzhang.com/), and later modified by [Yihui Xie](http://yihui.name/) and [Cheng-Jun Wang](http://chengjun.github.io) respectively. Feel free to fork me on **[Github](http://github.com/chengjun/blog)**.
 
 
