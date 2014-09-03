@@ -13,6 +13,6 @@ You can know more about me in the [homepage](/) and my [CV](/cv/).
 
 
 ##博客模板介绍
-**[Red bird]()**! Another good [Jekyll](https://github.com/mojombo/jekyll) theme, which was originally developed by [Linghua Zhang](http://lhzhang.com/), and later modified by [Yihui Xie](http://yihui.name/) and [Cheng-Jun Wang](http://chengjun.github.io) respectively. Feel free to fork me on **[Github](http://github.com/chengjun/blog)**.
+**[Red bird]()**! Another good [Jekyll](https://github.com/mojombo/jekyll) theme, which was originally developed by [Linghua Zhang](http://lhzhang.com/), and later modified by [Yihui Xie](http://yihui.name/) and [Cheng-Jun Wang](http://chengjun.github.io) respectively. .
 
 
