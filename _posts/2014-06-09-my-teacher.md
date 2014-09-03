@@ -49,7 +49,7 @@ tags:
 [2. 祝老师的学术道路](http://chengjun.github.io/road)
 
 
-<iframe src='http://chengjun.github.io/road/' scrolling="no" width="800" height = "400"></iframe>
+<iframe src='http://chengjun.github.io/road/' scrolling="yes" width="800" height = "600"></iframe>
 
 <iframe src='http://chengjun.github.io/media-images/' scrolling="no" width="800" height = "600"></iframe>
 
