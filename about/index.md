@@ -6,6 +6,8 @@ comments: yes
 
 ##博客订阅
 
+<a href="http://feedburner.google.com/fb/a/mailverify?uri=github/VGgA&amp;loc=en_US">Subscribe to Cheng-Jun Wang by Email</a>
+
 <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=github/VGgA', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="hidden" value="github/VGgA" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Click here to Subscribe by Email" /></form>
 
 ##关于我
