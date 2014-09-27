@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "wedding-days"
+title: "为了结婚奔忙"
 date: 2014-09-27
 comments: true
 categories: 
