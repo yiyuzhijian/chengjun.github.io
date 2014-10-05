@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3D地球可视化：WebGL Globe"
+title: "去过的地方"
 date: 2014-08-19 17:41
 comments: true
 categories: 
