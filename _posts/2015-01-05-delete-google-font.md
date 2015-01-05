@@ -4,7 +4,7 @@ title: "挥泪斩谷歌字体"
 date: 2015-01-05 22:41
 comments: true
 categories: 
-- 博客
+- blog
 tags:
 - 谷歌
 - 字体
@@ -21,3 +21,12 @@ tags:
     #@import url(http://fonts.googleapis.com/css?family=Galdeano);
     #@import url(http://fonts.googleapis.com/css?family=Electrolize);
     #@import url(http://fonts.googleapis.com/css?family=Cuprum);
+
+###改过来之后
+英文字体变大了，好吧，职能感觉萌萌哒啦。
+
+
+
+
+
+
