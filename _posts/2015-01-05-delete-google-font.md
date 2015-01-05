@@ -16,8 +16,8 @@ tags:
 在天朝载入我的博客慢的原因就是因为style.css里（media/css/style.css）调用里谷歌字体。好伤心，每次访问速度都很慢，非得翻墙才行。可是不能让俺的读者们也翻墙吧，这也太虎了。反正我的审美要求也没那么高。雪藏了吧。
 
 ```css
-#@import url(http://fonts.googleapis.com/css?family=Galdeano);
-#@import url(http://fonts.googleapis.com/css?family=Electrolize);
-#@import url(http://fonts.googleapis.com/css?family=Cuprum);
+  #@import url(http://fonts.googleapis.com/css?family=Galdeano);
+  #@import url(http://fonts.googleapis.com/css?family=Electrolize);
+  #@import url(http://fonts.googleapis.com/css?family=Cuprum);
 ```
 
