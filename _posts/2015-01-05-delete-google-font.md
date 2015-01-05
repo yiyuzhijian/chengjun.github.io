@@ -23,7 +23,7 @@ tags:
     #@import url(http://fonts.googleapis.com/css?family=Cuprum);
 
 ###改过来之后
-英文字体变大了，好吧，职能感觉萌萌哒啦。
+我了个去，怎么英文字体变这么大了，BIG好吧，只能骗自己感觉萌萌哒啦。
 
 
 
