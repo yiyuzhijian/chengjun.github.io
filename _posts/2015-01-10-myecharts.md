@@ -24,6 +24,7 @@ tags:
             		<meta charset="utf-8">
             		<title>echarts testing page</title>
             		<script src="./js/esl.js"></script>
+            		<script src="./js/echarts.js" type="text/javascript"></script>
             	</head>
             	<body>
             		<div id="main" style="height:400px;"></div>
@@ -72,4 +73,9 @@ http://chengjun.github.io/myecharts/map9.html
 <iframe src='http://chengjun.github.io/myecharts/map9.html' scrolling="no" width="600" height = "400"></iframe>
 
 
+##后记
+发现chrome无法加载，再加入了以下代码后就可以使用了。可惜用了整整一个上午才更正这个问题。
+
+
+            <script src="./js/echarts.js" type="text/javascript"></script>
 
