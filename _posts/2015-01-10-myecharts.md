@@ -17,50 +17,58 @@ tags:
 - 再次，输入需要输入的数据。
 - 最后，封装。
 
-    <!DCOTYPE html>
-    <html>
-    	<head>
-    		<meta charset="utf-8">
-    		<title>echarts testing page</title>
-    		<script src="./js/esl.js"></script>
-    	</head>
-    	<body>
-    		<div id="main" style="height:400px;"></div>
-    		<script type="text/javascript">
-    			require.config({
-    				paths:{
-    					"echarts":"js/echarts",
-    					"echarts/chart/map":"js/map"
-    				}
-    			});
-    			
-    			//using
-    			require(
-    				[
-    					"echarts",
-    					"echarts/chart/map"
-    				],
-    				function(ec){
-    					var myChart=ec.init(document.getElementById("main"));  
-                        <!--Input your code here-->					
-    					var
-    								
-                        <!--Input your code here-->					
-    					//loading data
-    					myChart.setOption(option);
-    				}
-    			);
-    		</script>
-    	</body>
-    </html>
+
+            <!DCOTYPE html>
+            <html>
+            	<head>
+            		<meta charset="utf-8">
+            		<title>echarts testing page</title>
+            		<script src="./js/esl.js"></script>
+            	</head>
+            	<body>
+            		<div id="main" style="height:400px;"></div>
+            		<script type="text/javascript">
+            			require.config({
+            				paths:{
+            					"echarts":"js/echarts",
+            					"echarts/chart/map":"js/map"
+            				}
+            			});
+            			
+            			//using
+            			require(
+            				[
+            					"echarts",
+            					"echarts/chart/map"
+            				],
+            				function(ec){
+            					var myChart=ec.init(document.getElementById("main"));  
+                                <!--Input your code here-->					
+            					var
+            								
+                                <!--Input your code here-->					
+            					//loading data
+            					myChart.setOption(option);
+            				}
+            			);
+            		</script>
+            	</body>
+            </html>
+
 
 ##弦图
+http://chengjun.github.io/myecharts/chord.html
+
 <iframe src='http://chengjun.github.io/myecharts/chord.html' scrolling="no" width="600" height = "400"></iframe>
 
 ##柱状图
+http://chengjun.github.io/myecharts/bar.html
+
 <iframe src='http://chengjun.github.io/myecharts/bar.html' scrolling="no" width="600" height = "400"></iframe>
 
 ##地图
+http://chengjun.github.io/myecharts/map9.html
+
 <iframe src='http://chengjun.github.io/myecharts/map9.html' scrolling="no" width="600" height = "400"></iframe>
 
 
