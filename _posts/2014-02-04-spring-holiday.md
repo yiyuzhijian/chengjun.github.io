@@ -25,7 +25,8 @@ tags:
 
 吃完晚饭，刷完了碗，就去和暮白散步。从七点半到八点半，散步一个小时。莫名其妙的唱起了一首歌：人生就像一条大河。搜索了一下，发现歌词是`生命就像一条大河`。来自汪峰的歌《飞得更高》。
 
-<embed src="http://www.xiami.com/widget/2901500_53885,_235_346_FF8719_494949_0/multiPlayer.swf" type="application/x-shockwave-flash" width="235" height="346" wmode="opaque"></embed>
+
+<embed src="http://www.xiami.com/widget/2901500_53885,_235_346_FF8719_494949_0/multiPlayer.swf" type="application/x-shockwave-flash" width="500" height="200" wmode="opaque"></embed>
 
 
 飞得更高
