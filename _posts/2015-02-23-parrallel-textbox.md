@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "talkbubble：建立一个并列的文本框"
+title: "为网站首页添加消息框"
 date: 2015-02-23 17:41
 comments: true
 categories: 
@@ -9,7 +9,9 @@ tags:
 - 文本框
 ---
 
-方法是设置position为absolute。
+我对于html的无知可以说是到了某种无以附加的程度。虽然我投入了很多时间，但往往都是干中学。而不是系统的模仿。通常会发现很多困惑，然后每次对我而言都是一个个小trick就解决了问题。
+
+如何添加一个平行的文本框？这个困惑了我很久的问题，解决方法是设置position为absolute。
 
     #textbox {
       position:absolute;
