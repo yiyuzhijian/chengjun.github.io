@@ -18,7 +18,8 @@ tags:
 
 女儿的出生的确让我的学术研究变得更加雪上加霜。但造成这一问题的主要责任在我。我必须要抓紧一切时间来弥补这一缺失，否则孩子就不是没有户口那么简单。
 
-<!doctype html> 
+# 米粒出生多少天了？
+
 <html> 
 <head> 
 <meta charset="utf-8"> 
@@ -35,7 +36,7 @@ tags:
 </DIV> 
 <script type="text/javascript"> 
 function getRTime(){ 
-var EndTime= new Date('2015/03/11 11:10:00'); //截止时间 
+var EndTime= new Date('2015/03/11 11:05:00'); //截止时间 
 var NowTime = new Date(); 
 var t = NowTime.getTime()-EndTime.getTime(); 
 /*var d=Math.floor(t/1000/60/60/24); 
