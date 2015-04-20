@@ -18,4 +18,45 @@ tags:
 
 女儿的出生的确让我的学术研究变得更加雪上加霜。但造成这一问题的主要责任在我。我必须要抓紧一切时间来弥补这一缺失，否则孩子就不是没有户口那么简单。
 
-
+<!doctype html> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+ 
+</head> 
+ 
+<body> 
+ 
+<DIV id="CountMsg" class="HotDate"> 
+<span id="t_d">00天</span> 
+<span id="t_h">00时</span> 
+<span id="t_m">00分</span> 
+<span id="t_s">00秒</span> 
+</DIV> 
+<script type="text/javascript"> 
+function getRTime(){ 
+var EndTime= new Date('2015/03/11 11:10:00'); //截止时间 
+var NowTime = new Date(); 
+var t = NowTime.getTime()-EndTime.getTime(); 
+/*var d=Math.floor(t/1000/60/60/24); 
+t-=d*(1000*60*60*24); 
+var h=Math.floor(t/1000/60/60); 
+t-=h*60*60*1000; 
+var m=Math.floor(t/1000/60); 
+t-=m*60*1000; 
+var s=Math.floor(t/1000);*/
+ 
+var d=Math.floor(t/1000/60/60/24); 
+var h=Math.floor(t/1000/60/60%24); 
+var m=Math.floor(t/1000/60%60); 
+var s=Math.floor(t/1000%60); 
+ 
+document.getElementById("t_d").innerHTML = d + "天"; 
+document.getElementById("t_h").innerHTML = h + "时"; 
+document.getElementById("t_m").innerHTML = m + "分"; 
+document.getElementById("t_s").innerHTML = s + "秒"; 
+} 
+setInterval(getRTime,1000); 
+</script> 
+</body> 
+</html>
