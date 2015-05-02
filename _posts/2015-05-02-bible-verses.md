@@ -21,6 +21,11 @@ tags:
 
 #圣经今句
 
+<script type="text/javascript" language="JavaScript" src="https://www.biblegateway.com/votd/votd.write.callback.js"> 
+</script>
+<script type="text/javascript" language="JavaScript" src="https://www.biblegateway.com/votd/get?format=json&version=NIV&callback=BG.votdWriteCallback"> 
+</script>
+
 <noscript>
 <iframe framespacing="0" frameborder="no" src="https://www.biblegateway.com/votd/get?format=html&version=NIV">View Verse of the Day</iframe> 
 </noscript>
