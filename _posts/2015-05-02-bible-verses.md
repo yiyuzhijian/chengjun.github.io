@@ -10,7 +10,7 @@ tags:
 ---
 
 <script type="text/javascript">
-document.write("<iframe src=\"http://www.kingjamesonline.org/inspiring-images-widget.php\" style=\"width: auto; height: auto; border: 0px solid #ffffff;\"></iframe>");
+document.write("<iframe src=\"http://www.kingjamesonline.org/inspiring-images-widget.php\" style=\"width: 344px; height: 344px; border: 0px solid #ffffff;\"></iframe>");
 </script>
 
 前天与朋友吃饭，一个妈妈讲起了自己家养育孩子的方法。让孩子参加家庭每周的自我计划陈述，自己说出一周的计划，总结一周的得失，家人不提任何意见。使用这个方法，坚持半年使得孩子养成了刷碗、给爷爷奶奶打电话等很多好习惯。这种交流的形式使我一下子想到了团契。在海淀堂和城市大学的时候，我就曾参加过，感触挺深得。
