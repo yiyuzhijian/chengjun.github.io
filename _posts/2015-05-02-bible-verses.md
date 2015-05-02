@@ -17,7 +17,7 @@ document.write("<iframe src=\"http://www.kingjamesonline.org/inspiring-images-wi
 
 #圣经今句
 <script type="text/javascript">
-document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-verses-widget.php\" style=\"width: 600px;height: 50px; border: 0px solid #ffffff;\"></iframe>");
+document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-verses-widget.php\" style=\"width: 600px;height: 70px; border: 0px solid #ffffff;\"></iframe>");
 </script>
 
 
