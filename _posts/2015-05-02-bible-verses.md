@@ -21,10 +21,6 @@ document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-
 </script>
 
 
-<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-verses-widget.php\" Name="Bible" SCROLLING="AUTO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="5" ALIGN="MIDDLE" MARGINWIDTH="5" WIDTH="600" HEIGHT="100"></iframe>
-
-
-
 #圣经金句
 
 <IFRAME SRC="http://www.jesusfolk.com/Bible/Verses/1.htm?b1=15&b2=%23000000&b3=Verdana&b4=%23FFFFFF" Name="Bible" SCROLLING="AUTO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="5" ALIGN="MIDDLE" MARGINWIDTH="5" WIDTH="600" HEIGHT="100"></IFRAME>
