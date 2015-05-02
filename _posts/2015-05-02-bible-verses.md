@@ -17,7 +17,7 @@ document.write("<iframe src=\"http://www.kingjamesonline.org/inspiring-images-wi
 
 #圣经今句
 <script type="text/javascript">
-document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-verses-widget.php\" style=\"width: 600px;height: auto; border: 0px solid #ffffff;\"></iframe>");
+document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-verses-widget.php\" style=\"width: 600px;height: "AUTO"; border: 0px solid #ffffff;\"></iframe>");
 </script>
 
 
@@ -26,9 +26,5 @@ document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-
 
 <IFRAME SRC="http://www.jesusfolk.com/Bible/Verses/1.htm?b1=15&b2=%23000000&b3=Verdana&b4=%23FFFFFF" Name="Bible" SCROLLING="AUTO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="5" ALIGN="MIDDLE" MARGINWIDTH="5" WIDTH="600" HEIGHT="100"></IFRAME>
 
-#圣经检索
-
-<span style="color:red;">
-<script type="text/javascript" src="http://www.kingjamesbibleonline.org/biblesearchwidget.js"></script>
 
 
