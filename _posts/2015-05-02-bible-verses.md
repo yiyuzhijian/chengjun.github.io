@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "圣经的声音"
-date: 20105-05-02 17:41
+date: 2015-05-02 17:41
 comments: true
 categories: 
 - 生活
