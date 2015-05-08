@@ -30,4 +30,4 @@ document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-
 <IFRAME SRC="http://www.jesusfolk.com/Bible/Verses/1.htm?b1=15&b2=%23000000&b3=Verdana&b4=%23FFFFFF" Name="Bible" SCROLLING="AUTO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="5" ALIGN="MIDDLE" MARGINWIDTH="5" WIDTH="600" HEIGHT="100"></IFRAME>
 
 # 我的2015
-<IFRAME SRC="http://chengjun.github.io/cv/news.html#2015" Name="Bible" SCROLLING="NO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="3" ALIGN="MIDDLE" MARGINWIDTH="3" WIDTH="900" HEIGHT="800"></IFRAME>
+<IFRAME SRC="http://chengjun.github.io/cv/news.html#2015" Name="Bible" SCROLLING="NO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="3" ALIGN="MIDDLE" MARGINWIDTH="3" WIDTH="700" HEIGHT="800"></IFRAME>
