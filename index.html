@@ -81,7 +81,12 @@
 
 <div id="talkbubble">
   <marquee direction=right><h2><a href="http://chengjun.github.io/cv/news.html">News</a></h2></marquee>
-  <p>[Feb 23] <a href="https://pypi.python.org/pypi/scholarNetwork/">scholarNetwork</a>--a python package which can help crawl and visualize the coauthor network of Google Scholar is released to Pypi. </p>
+      <div id="code">
+              <p>[Feb 23] <a href="https://pypi.python.org/pypi/scholarNetwork/">scholarNetwork</a>--a python package which can help crawl and visualize the coauthor network of Google Scholar is released to Pypi. </p>
+      </div>
+      </div>
+        <canvas id="garden"></canvas>
+      </div>
 </div>
 
 <div id="about">
@@ -104,7 +109,21 @@
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="assets/javascript/jquery.backstretch.min.js"></script>
 <script type="text/javascript" src="assets/javascript/application.js"></script>
-
+<script type="text/javascript" src="http://chengjun.github.io/love/js/garden.js"></script>
+<script type="text/javascript" src="http://chengjun.github.io/love/js/functions.js"></script>
+<script type="text/javascript">
+  if (!document.createElement('canvas').getContext) {
+    var msg = document.createElement("div");
+    msg.id = "errorMsg";
+    msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+    document.body.appendChild(msg);
+    $("#code").css("display", "none")
+      document.execCommand("stop");
+  } else {
+    adjustCodePosition();
+    $("#code").typewriter();
+  }
+</script>
 <!--<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
 <script type="text/javascript">
 
