@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "圣经的声音"
+title: "精神的家园"
 date: 2015-05-02 17:41
 comments: true
 categories: 
@@ -8,6 +8,8 @@ categories:
 tags:
 - 圣经
 ---
+
+我想或许是自己对于宗教的态度越来越严肃，所以反而见不得圣经两个字。心底里将圣经神圣化，于是看到只言片语就感觉远远不限于此。所以就产生了逆反，往来的更改标题。这个问题该怎么破？
 
 <script type="text/javascript">
 document.write("<iframe src=\"http://www.kingjamesonline.org/inspiring-images-widget.php\" style=\"width: 344px; height: 344px; border: 0px solid #ffffff;\"></iframe>");
@@ -29,5 +31,3 @@ document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-
 
 <IFRAME SRC="http://www.jesusfolk.com/Bible/Verses/1.htm?b1=15&b2=%23000000&b3=Verdana&b4=%23FFFFFF" Name="Bible" SCROLLING="AUTO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="5" ALIGN="MIDDLE" MARGINWIDTH="5" WIDTH="600" HEIGHT="100"></IFRAME>
 
-# 我的2015
-<IFRAME SRC="http://chengjun.github.io/cv/news.html#2015" Name="Bible" SCROLLING="AUTO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="3" ALIGN="MIDDLE" MARGINWIDTH="3" WIDTH="700" HEIGHT="800"></IFRAME>
