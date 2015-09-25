@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#未来新闻视野中的聚合媒体：以《今日头条》为例"
+title: "未来新闻视野中的聚合媒体：以《今日头条》为例"
 date: 2015-09-23 17:41
 comments: true
 categories: 
