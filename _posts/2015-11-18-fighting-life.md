@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "在平凡的生活中战斗"
+title: "社火的欲望"
 date: 2015-11-18
 comments: true
 categories: 
