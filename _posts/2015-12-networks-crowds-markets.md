@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "网络、群体与市场里的计算思维"
-date: 2010-03-30 17:41
+date: 2015-12-15 17:41
 comments: true
 categories: 
 - 研究
