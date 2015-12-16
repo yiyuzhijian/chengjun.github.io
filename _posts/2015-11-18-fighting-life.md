@@ -43,7 +43,11 @@ tags:
 - 学车
 - 学会拒绝
 
+## 保持动力 KEEP MOTIVATED
 
+- NO FEAR, NO DISTRACTION 持之以恒
+- KEEP HUNGRY, KEEP FOOLISH, KEEP MOTIVATED 只有心存欲念，才能自我克制，戒除贪欲、不耻下问、保持动力。
+- Follow your logic
 
 
 
