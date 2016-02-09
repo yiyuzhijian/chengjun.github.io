@@ -2,7 +2,9 @@ markdown: kramdown
 relative_permalinks: false
 url: http://chengjun.github.io
 author: Cheng-Jun Wang
-pygments: true
+highlighter: pygments
+permalink: /:year/:month/:title/
+paginate: 10
+paginate_path: "page:num"
 safe: true
-paginate: 15
 auto: true
