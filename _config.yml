@@ -1,5 +1,5 @@
 markdown: kramdown
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:date/:title/
 url: http://chengjun.github.io
 author: Cheng-Jun Wang
 pygments: true
